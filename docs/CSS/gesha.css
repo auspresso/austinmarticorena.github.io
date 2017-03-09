@@ -1,0 +1,263 @@
+*,*::before,*::after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    font-size: 100%;
+}
+
+body {
+    font-family: 'Comfortaa';
+    color: white;
+    min-height: 100%;
+}
+
+ .navbar {
+  position: fixed;
+  padding-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.50rem;
+  z-index: 1;
+  background-color: #FFFFFF;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  opacity: 0.9;
+ }
+
+ .navbar .links-container {
+  display: table;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 75px;
+  color: #57BEB6;
+  text-decoration: none;
+ }
+
+ .links-container .navbar-link {
+    display: table-cell;
+    position: relative;
+    height: 100%;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    vertical-align: middle;
+    color: #F15C56;
+    font-size: 0.75rem;
+    letter-spacing: 0.05rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.links-container .navbar-link:hover {
+    color: #57BEB6;
+}
+
+.hero-content {
+     position: relative;
+     min-height: 700px;
+     background-image: url("../images/geshapage.png");
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: cover;
+     padding-top: 1rem;
+}
+
+.header h1 {
+    color: #F15C56;
+    font-style: normal;
+    font-size: 64px;
+    font-weight: 100;
+}
+
+.header h2 {
+    color: #4A4A4A;
+    font-style: lighter;
+    font-size: 24px;
+    font-weight: 100;
+} 
+
+
+.overview h1 {
+    color: #F15C56;
+    text-align: left;
+    font-style: normal;
+    font-size: 32px;
+    font-weight: 100;
+}
+
+.overview h2 {
+    color: #57BEB6;
+    text-align: left;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 100; 
+}
+
+.overview p {
+    color: #4A4A4A;
+    text-align: left;
+    font-style: lighter;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.overview ul {
+    color: #4A4A4A;
+    text-align: left;
+    font-style: lighter;
+    font-size: 16px;
+    font-weight: 100;   
+}
+
+.about-me {
+     position: relative;
+     min-height: 800px;
+     background-image: url("../images/coffee.jpg");
+     background-repeat: no-repeat;
+     background-position: top center;
+     background-size: cover;
+}
+
+.about-me .about-title {
+     position: absolute;
+     top: 15%;
+     -webkit-transform: translateY(-50%);
+     -moz-transform: translateY(-50%);
+     transform: translateY(-50%);
+     width: 100%;
+     text-align: right;
+     font-size: 3rem;
+     font-weight: 250;
+     text-transform: uppercase;
+     letter-spacing: 0.25rem;
+     color: #F15C56;
+     line-height: 2rem;
+     right: 1%;
+}
+
+ /* GRID */
+ .spcontainer {
+    margin: 0 auto;
+    max-width: 64rem;
+}
+
+
+
+ /* WORK */
+ .small {
+   font-size: 12px;
+   color: #FEFEFE;
+   line-height: 15px;
+   font-style:italic;
+}
+
+ .selling-points {
+     position: relative;
+ }
+ 
+ .point {
+     position: relative;
+     text-align: center;
+     color: #F15C56;
+ }
+ 
+ .point .point-title {
+     font-size: 4rem;
+     color: #FFFFFF;
+     text-align: center;
+     font-weight: normal;
+ }
+
+.point .point-description {
+    font-size: 1.5rem;
+    color: #4A4A4A;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.column {
+    float: left;
+        
+    }
+    
+.column.full {width: 100%; }
+.column.two-thirds {width: 66.7%; }
+.column.half {width: 50%; }
+.column.third {width: 33.3%; }
+.column.fourth {width: 25%; }
+.column.flow-opposite {float: right; }
+
+.clearfix::before,
+.clearfix::after {
+   content: " ";
+   display: table;
+}
+
+.clearfix::after {
+   clear: both;
+}
+
+  /* ABOUT ME */
+ .aboutme h2, .aboutme p {
+   color:#4B5258;
+ }
+
+ /* CONTACT */
+.container {
+  max-width:1000px;
+  margin:0 auto;
+  text-align:center;
+}
+
+/* media queries */
+@media (min-width: 640px) {
+    html {font-size: 112%; }
+}
+
+@media (min-width: 1024px) {
+    html {font-size: 120%; }
+    
+  /* FOOTER */ 
+footer {
+   background-color: #CB9A8F;
+   color: #FFFFFF;
+   height: 150px;
+   position: relative;
+   overflow: hidden;
+   z-index: 0;
+}
+ footer p, footer nav ul {
+   font-size:14px;
+   font-weight:100;
+   text-align: left;
+   margin: 10px auto 0;
+   color: #FFFFFF;
+ }
+ footer nav ul li {
+   list-style-type: none;
+ }
+ footer .left-footer-block {
+   text-align: left;
+   margin-top: 10px;
+   font-size: 30px;
+ }
+
+  @media (min-width: 992px){
+   footer{
+     background-color: #4A4A4A;
+     height: 50px;
+   }
+   footer p, footer nav ul{
+     padding: 2em 0;
+     text-align: left;
+   }
+ }
+
+
