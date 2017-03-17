@@ -61,11 +61,11 @@ body {
 
 .hero-content {
      position: relative;
-     min-height: 700px;
+     min-height: 720px;
      background-image: url("../images/noteboxpage.png");
      background-repeat: no-repeat;
      background-position: center center;
-     background-size: cover;
+     background-size: contain;
      margin-top: 75px;
 }
 
@@ -146,6 +146,91 @@ body {
      color: #F15C56;
      line-height: 2rem;
      right: 1%;
+}
+
+.nsurvey {
+     min-height: 500px;
+     background-image: url("../images/nsurvey.png");
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: contain;
+     position: relative;
+
+}
+
+
+.npersonas {
+     min-height: 900px;
+     background-image: url("../images/npersona.png");
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: contain;
+     position: relative;
+
+}
+
+.nflow {
+     min-height: 500px;
+     background-image: url("../images/nflow.png");
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: contain;
+     position: relative;
+
+}
+
+.nlow {
+     min-height: 700px;
+     background-image: url("../images/nlow.png");
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: contain;
+     position: static;
+
+}
+
+.nhigh {
+     min-height: 900px;
+     background-image: url("../images/nhigh.png");
+     background-repeat: no-repeat;
+     background-size: contain;
+     position: relative;
+}
+
+.nuno {
+     min-height: 600px;
+     background-image: url("../images/nuno.png");
+     background-repeat: no-repeat;
+     background-size: contain;
+     position: relative;
+}
+
+.ntype {
+     min-height: 800px;
+     background-image: url("../images/ntype.png");
+     background-repeat: no-repeat;
+     background-size: contain;
+     position: relative;
+}
+
+.ndash {
+     min-height: 800px;
+     background-image: url("../images/ndash.png");
+     background-repeat: no-repeat;
+     background-size: contain;
+     position: relative;
+     display: block;
+     margin: 0 auto;
+}
+
+.npal {
+     min-height: 800px;
+     background-image: url("../images/npal.png");
+     background-repeat: no-repeat;
+     background-size: contain;
+     position: relative;
+     display: block;
+     margin: 0 auto;
 }
 
  /* GRID */
