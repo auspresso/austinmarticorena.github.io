@@ -65,7 +65,8 @@ body {
      background-image: url("../images/noteboxpage.png");
      background-repeat: no-repeat;
      background-position: center center;
-     background-size: contain;
+     background-size: cover;
+     padding-top: 1rem;
      margin-top: 75px;
 }
 
