@@ -370,38 +370,17 @@ body {
     
   /* FOOTER */ 
 footer {
-   background-color: #CB9A8F;
-   color: #FFFFFF;
-   height: 150px;
-   position: relative;
-   overflow: hidden;
-   z-index: 0;
+    color: #FFFFFF;
+    height: 50px;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+    margin: 10px auto 0;
+    text-align: center;
+    font-size:14px;
+    font-weight:100;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-right: 45px;
+    background-color: #4A4A4A;
 }
- footer p, footer nav ul {
-   font-size:14px;
-   font-weight:100;
-   text-align: left;
-   margin: 10px auto 0;
-   color: #FFFFFF;
- }
- footer nav ul li {
-   list-style-type: none;
- }
- footer .left-footer-block {
-   text-align: left;
-   margin-top: 10px;
-   font-size: 30px;
- }
-
-  @media (min-width: 992px){
-   footer{
-     background-color: #4A4A4A;
-     height: 50px;
-   }
-   footer p, footer nav ul{
-     padding: 2em 0;
-     text-align: left;
-   }
- }
-
-
