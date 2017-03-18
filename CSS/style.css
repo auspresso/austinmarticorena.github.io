@@ -421,7 +421,7 @@ label.error {
   /* FOOTER */ 
 footer {
     color: #FFFFFF;
-    height: 150px;
+    height: 50px;
     position: relative;
     overflow: hidden;
     z-index: 0;
@@ -432,26 +432,7 @@ footer {
     font-size: 30px;
     padding-top: 10px;
     padding-right: 45px;
+    background-color: #4A4A4A;
 }
-
- footer nav ul {
-     list-style-type: none;
-     text-align: center;
-     margin-top: 10px;
-     height: 50px;
- }
-    
-
-
-  @media (min-width: 992px){
-   footer{
-     background-color: #4A4A4A;
-     height: 50px;
-   }
-   footer p, footer nav ul{
-     padding: 2em 0;
-     text-align: center;
-   }
- }
 
 
