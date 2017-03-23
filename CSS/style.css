@@ -80,7 +80,7 @@ body {
      font-weight: 250;
      text-transform: uppercase;
      letter-spacing: 0.5rem;
-     color: white;
+     color: #D96045;
 }
 
 .hero-content .copy {
@@ -94,7 +94,7 @@ body {
      font-size: 1.25rem;
      font-weight: 200;
      letter-spacing: 0.1rem;
-     color: white;
+     color: #D96045;
      line-height: 2rem;
 }
 
