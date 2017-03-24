@@ -74,7 +74,7 @@ body {
 
 .hero-content .hero-title {
      position: absolute;
-     top: 15%;
+     top: 30%;
      -webkit-transform: translateY(-50%);
      -moz-transform: translateY(-50%);
      transform: translateY(-50%);
@@ -84,12 +84,12 @@ body {
      font-weight: 250;
      text-transform: uppercase;
      letter-spacing: 0.5rem;
-     color: #D96045;
+     color: white;
 }
 
 .hero-content .copy {
      position: absolute;
-     top: 30%;
+     top: 45%;
      -webkit-transform: translateY(-50%);
      -moz-transform: translateY(-50%);
      transform: translateY(-50%);
@@ -104,7 +104,7 @@ body {
 
 .hero-content .btn {
   position: absolute;
-  top: 45%;
+  top: 60%;
   left: 44%;
   margin-top:15px;
   margin-bottom:25px;
