@@ -16,7 +16,7 @@ body {
 }
 
  .navbar {
-  position: relative;
+  position: fixed;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   padding-top: 0.25rem;
@@ -26,6 +26,7 @@ body {
   width: 100%;
   overflow: hidden;
   opacity: 0.9;
+  background-color: #F15C56;
  }
 
  .navbar .links-container {
@@ -45,7 +46,7 @@ body {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     vertical-align: middle;
-    color: #F15C56;
+    color: #FFF;
     font-size: 0.75rem;
     letter-spacing: 0.05rem;
     font-weight: 700;
@@ -55,17 +56,20 @@ body {
 }
 
 .links-container .navbar-link:hover {
-    color: #57BEB6;
+    color: #4A4A4A;
     
 }
 
 .hero-content {
      position: relative;
-     min-height: 850px;
-     background-image: url("../images/landing-page3.jpeg");
+     min-height: 700px;
+     background-image: url("../images/landingg.jpeg");
      background-repeat: no-repeat;
-     background-position: center center;
+     background-position: center right;
      background-size: cover;
+     padding-top: 1rem;
+     margin-top: 62px;
+     background-attachment: fixed;
 }
 
 .hero-content .hero-title {
@@ -146,7 +150,7 @@ body {
      font-weight: 250;
      text-transform: uppercase;
      letter-spacing: 0.25rem;
-     color: #F15C56;
+     color: #FFF;
      line-height: 2rem;
      right: 1%;
 }
@@ -262,9 +266,11 @@ body {
 
 .aboutme p {
     line-height: 1.5rem;
-    font-size: 16px;
-    text-align: center;
-    color:#4B5258;
+    font-size: 14px;
+    text-align: left;
+    display: inline-block;
+    color: black;
+    width: 500px;
 }
 
 .aboutme h2 {
