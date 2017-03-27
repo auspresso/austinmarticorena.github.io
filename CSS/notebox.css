@@ -314,38 +314,165 @@ img {
   text-align:center;
 }
 
-/* media queries */
-@media (min-width: 640px) {
-    html {font-size: 112%; }
+/* MEDIA QUERIES */
+
+
+/* TABLETS & DESKTOP */
+@media only screen and (min-width: 768px) {
+
 }
 
-@media (min-width: 1024px) {
-    html {font-size: 120%; }
+/* PHONES */
+@media only screen and (max-width: 767px) {
+    .box {
+     width: 200px;
+     height: 200px;
+    }
+    .point .point-title {
+     font-size: 2rem;
+     color: #FFFFFF;
+     text-align: center;
+     font-weight: normal;
+ }
+
+    .point .point-description {
+     font-size: 0.75rem;
+     color: #4A4A4A;
+     text-align: center;
+     font-weight: lighter;
+}
+    .aboutme p {
+     line-height: 1.5rem;
+     font-size: 10px;
+     text-align: left;
+     display: inline-block;
+     color: black;
+     width: 250px;
+     padding-left: 1rem;
+     padding-right: 1rem;
+}
+    .gesha {
+     width: 200px;
+     height: 200px;
+}
+
+    .truvay {
+     width: 200px;
+     height: 200px;
+}
+
+    .notebox {
+     width: 200px;
+     height: 200px;
+}
+    .navbar {
+     position: relative;
+     padding-left: 1rem;
+     padding-right: 1rem;
+     padding-top: 0.25rem;
+     padding-bottom: 0.25rem;
+     z-index: 1;
+     top: 0;
+     width: 100%;
+     overflow: hidden;
+     opacity: 0.9;
+     background-color: #F15C56;
+     height: 71px;
+ }
+
+   .navbar .logo {
+     padding-left: 0.5rem;
+     padding-top: 0.25rem;
+     padding-bottom: 2rem;
+}
+
+    .navbar .links-container {
+     display: table;
+     position: absolute;
+     top: 0;
+     right: 0;
+     height: 70px;
+     color: #57BEB6;
+     text-decoration: none;
+     padding-right: 0.1rem;
+ }
+    .links-container .navbar-link {
+     display: table-cell;
+     position: relative;
+     height: 100%;
+     padding-left: 1rem;
+     padding-right: 1rem;
+     vertical-align: middle;
+     color: white;
+     font-size: 0.75rem;
+     letter-spacing: 0.05rem;
+     font-weight: 700;
+     text-transform: uppercase;
+     text-decoration: none;
+     cursor: pointer;
+}
+    
+    .about-me {
+     position: relative;
+     min-height: 400px;
+     background-image: url("../images/coffee.jpg");
+     background-repeat: no-repeat;
+     background-position: top center;
+     background-size: cover;
+}
+
+     .about-me .about-title {
+      position: absolute;
+      top: 20%;
+      -webkit-transform: translateY(-50%);
+      -moz-transform: translateY(-50%);
+      transform: translateY(-50%);
+      width: 100%;
+      text-align: right;
+      font-size: 1rem;
+      font-weight: 250;
+      text-transform: uppercase;
+      letter-spacing: 0.25rem;
+      color: white;
+      line-height: 1rem;
+      right: 1%;
+}
+     .aboutme h2 {
+      font-size: 1rem; 
+}
+}
+
+/* PORTRAIT PHONES */
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+
+}
 
 @media (min-width: 768px) {
-    .container {
-    width: 750px;
+   .container {
+     width: 750px;
    }
  }
-@media (min-width: 992px) {
-    .container {
-    width: 970px;
+
+ @media (min-width: 992px) {
+   .container {
+     width: 970px;
    }
-    .one-half {
-    width:46%;
+   .one-half {
+     width:46%;
    }
-    .one-third {
-    width:29.33333%;
+   .one-third {
+     width:29.33333%;
    }
-    .one-fourth {
-    width:21%;
-   }
- }
-@media (min-width: 1200px) {
-    .container {
-    width: 1170px;
+   .one-fourth {
+     width:21%;
    }
  }
+
+ @media (min-width: 1200px) {
+   .container {
+       width: 1170px; }
+ }
+
     
   /* FOOTER */ 
 footer {
