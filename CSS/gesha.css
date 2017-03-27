@@ -355,47 +355,6 @@ img {
 
 /* PHONES */
 @media only screen and (max-width: 767px) {
-    .box {
-     width: 200px;
-     height: 200px;
-    }
-    .point .point-title {
-     font-size: 2rem;
-     color: #FFFFFF;
-     text-align: center;
-     font-weight: normal;
- }
-
-    .point .point-description {
-     font-size: 0.75rem;
-     color: #4A4A4A;
-     text-align: center;
-     font-weight: lighter;
-}
-    .aboutme p {
-     line-height: 1.5rem;
-     font-size: 10px;
-     text-align: left;
-     display: inline-block;
-     color: black;
-     width: 250px;
-     padding-left: 1rem;
-     padding-right: 1rem;
-}
-    .gesha {
-     width: 200px;
-     height: 200px;
-}
-
-    .truvay {
-     width: 200px;
-     height: 200px;
-}
-
-    .notebox {
-     width: 200px;
-     height: 200px;
-}
     .navbar {
      position: relative;
      padding-left: 1rem;
@@ -442,35 +401,33 @@ img {
      text-decoration: none;
      cursor: pointer;
 }
+    .overview p {
+     color: #4A4A4A;
+     text-align: left;
+     font-style: lighter;
+     font-size: 14px;
+     font-weight: 100;
+     line-height: 1.5rem;
+     padding-left: 0.75rem;
+     padding-right: 0.75rem;
+}
+    .overview h1 {
+    color: #F15C56;
+    text-align: left;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 100;
+    padding-left: 0.75rem;
+}
+    .overview h2 {
+    color: #57BEB6;
+    text-align: left;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 100;
+    padding-left: 0.75rem;
+}
     
-    .about-me {
-     position: relative;
-     min-height: 400px;
-     background-image: url("../images/coffee.jpg");
-     background-repeat: no-repeat;
-     background-position: top center;
-     background-size: cover;
-}
-
-     .about-me .about-title {
-      position: absolute;
-      top: 20%;
-      -webkit-transform: translateY(-50%);
-      -moz-transform: translateY(-50%);
-      transform: translateY(-50%);
-      width: 100%;
-      text-align: right;
-      font-size: 1rem;
-      font-weight: 250;
-      text-transform: uppercase;
-      letter-spacing: 0.25rem;
-      color: white;
-      line-height: 1rem;
-      right: 1%;
-}
-     .aboutme h2 {
-      font-size: 1rem; 
-}
 }
 
 /* PORTRAIT PHONES */
