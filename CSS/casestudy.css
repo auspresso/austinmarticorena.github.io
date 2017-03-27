@@ -16,9 +16,9 @@ body {
 }
 
  .navbar {
-  position: fixed;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  position: relative;
+  padding-left: 2rem;
+  padding-right: 2rem;
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
   z-index: 1;
@@ -27,26 +27,35 @@ body {
   overflow: hidden;
   opacity: 0.9;
   background-color: #F15C56;
+  height: 71px;
  }
+
+.navbar .logo {
+  padding-left: 1rem;
+  padding-right: 2rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
 
  .navbar .links-container {
   display: table;
   position: absolute;
   top: 0;
   right: 0;
-  height: 60px;
-  color: #57BEB6;
+  height: 70px;
+  color: #FFFFFF;
   text-decoration: none;
+  padding-right: 2rem;
  }
 
  .links-container .navbar-link {
     display: table-cell;
     position: relative;
     height: 100%;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     vertical-align: middle;
-    color: #FFF;
+    color: white;
     font-size: 0.75rem;
     letter-spacing: 0.05rem;
     font-weight: 700;
@@ -57,17 +66,14 @@ body {
 
 .links-container .navbar-link:hover {
     color: #4A4A4A;
+    
 }
 
-.hero-content {
-     position: relative;
-     min-height: 700px;
-     background-image: url("../images/truvaypage.png");
-     background-repeat: no-repeat;
-     background-position: center center;
-     background-size: cover;
-     padding-top: 1rem;
-     margin-top: 63px;
+img {
+    max-width: 100%;
+    width: auto/9;
+    vertical-align: middle;
+    border: 0;
 }
 
 
