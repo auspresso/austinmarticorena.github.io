@@ -17,8 +17,8 @@ body {
 
  .navbar {
   position: relative;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
   z-index: 1;
@@ -26,26 +26,36 @@ body {
   width: 100%;
   overflow: hidden;
   opacity: 0.9;
+  background-color: #F15C56;
+  height: 71px;
  }
+
+.navbar .logo {
+  padding-left: 1rem;
+  padding-right: 2rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
 
  .navbar .links-container {
   display: table;
   position: absolute;
   top: 0;
   right: 0;
-  height: 60px;
-  color: #57BEB6;
+  height: 70px;
+  color: #FFFFFF;
   text-decoration: none;
+  padding-right: 2rem;
  }
 
  .links-container .navbar-link {
     display: table-cell;
     position: relative;
     height: 100%;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     vertical-align: middle;
-    color: #F15C56;
+    color: white;
     font-size: 0.75rem;
     letter-spacing: 0.05rem;
     font-weight: 700;
@@ -55,75 +65,17 @@ body {
 }
 
 .links-container .navbar-link:hover {
-    color: #57BEB6;
+    color: #4A4A4A;
     
 }
 
-.hero-content {
-     position: relative;
-     min-height: 850px;
-     background-image: url("../images/landing-page.png");
-     background-repeat: no-repeat;
-     background-position: center center;
-     background-size: cover;
+
+img {
+    max-width: 100%;
+    width: auto/9;
+    vertical-align: middle;
+    border: 0;
 }
-
-.hero-content .hero-title {
-     position: absolute;
-     top: 15%;
-     -webkit-transform: translateY(-50%);
-     -moz-transform: translateY(-50%);
-     transform: translateY(-50%);
-     width: 100%;
-     text-align: center;
-     font-size: 2.25rem;
-     font-weight: 250;
-     text-transform: uppercase;
-     letter-spacing: 0.5rem;
-     color: white;
-}
-
-.hero-content .copy {
-     position: absolute;
-     top: 30%;
-     -webkit-transform: translateY(-50%);
-     -moz-transform: translateY(-50%);
-     transform: translateY(-50%);
-     width: 100%;
-     text-align: center;
-     font-size: 1.25rem;
-     font-weight: 200;
-     letter-spacing: 0.1rem;
-     color: white;
-     line-height: 2rem;
-}
-
-.hero-content .btn {
-  position: absolute;
-  top: 45%;
-  left: 44%;
-  margin-top:15px;
-  margin-bottom:25px;
-  background-color:#57BEB6;
-  padding: 12px 45px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
-  border-radius: 5px;
-  border: 1px solid #57BEB6;
-  -webkit-transition: .5s;
-  transition: .5s;
-  cursor: pointer;
-  color:#FFFFFF;
-  text-decoration: none;
-}
-
-.hero-content .btn:hover, .btn:hover {
-    background-color: #F15C56;
-    border-color: #F15C56;
-}
-
-
-
 
 .about-me {
      position: relative;
@@ -132,11 +84,12 @@ body {
      background-repeat: no-repeat;
      background-position: top center;
      background-size: cover;
+     background-attachment: fixed;
 }
 
 .about-me .about-title {
      position: absolute;
-     top: 15%;
+     top: 20%;
      -webkit-transform: translateY(-50%);
      -moz-transform: translateY(-50%);
      transform: translateY(-50%);
@@ -146,7 +99,7 @@ body {
      font-weight: 250;
      text-transform: uppercase;
      letter-spacing: 0.25rem;
-     color: #F15C56;
+     color: white;
      line-height: 2rem;
      right: 1%;
 }
@@ -156,8 +109,6 @@ body {
     margin: 0 auto;
     max-width: 64rem;
 }
-
-
 
  /* WORK */
  .small {
@@ -226,7 +177,7 @@ body {
 }
 
 .truvay {
-     background-image: url("../images/truvay.png");
+     background-image: url("../images/Truvay.png");
      background-repeat: no-repeat;
      background-position: center center;
      background-size: cover;
@@ -262,9 +213,11 @@ body {
 
 .aboutme p {
     line-height: 1.5rem;
-    font-size: 16px;
-    text-align: center;
-    color:#4B5258;
+    font-size: 14px;
+    text-align: left;
+    display: inline-block;
+    color: black;
+    width: 500px;
 }
 
 .aboutme h2 {
@@ -371,13 +324,164 @@ label.error {
 
 
 
-/* media queries */
-@media (min-width: 640px) {
-    html {font-size: 112%; }
+/* MEDIA QUERIES */
+
+
+/* TABLETS & DESKTOP */
+@media only screen and (min-width: 768px) {
+
 }
 
-@media (min-width: 1024px) {
-    html {font-size: 120%; }
+/* PHONES */
+@media only screen and (max-width: 767px) {
+    .box {
+     width: 200px;
+     height: 200px;
+    }
+    .point .point-title {
+     font-size: 2rem;
+     color: #FFFFFF;
+     text-align: center;
+     font-weight: normal;
+ }
+
+    .point .point-description {
+     font-size: 0.75rem;
+     color: #4A4A4A;
+     text-align: center;
+     font-weight: lighter;
+}
+    .aboutme p {
+     line-height: 1.5rem;
+     font-size: 10px;
+     text-align: left;
+     display: inline-block;
+     color: black;
+     width: 250px;
+     padding-left: 1rem;
+     padding-right: 1rem;
+}
+    .gesha {
+     width: 200px;
+     height: 200px;
+}
+
+    .truvay {
+     width: 200px;
+     height: 200px;
+}
+
+    .notebox {
+     width: 200px;
+     height: 200px;
+}
+    .navbar {
+     position: relative;
+     padding-left: 1rem;
+     padding-right: 1rem;
+     padding-top: 0.25rem;
+     padding-bottom: 0.25rem;
+     z-index: 1;
+     top: 0;
+     width: 100%;
+     overflow: hidden;
+     opacity: 0.9;
+     background-color: #F15C56;
+     height: 71px;
+ }
+
+   .navbar .logo {
+     padding-left: 0.5rem;
+     padding-top: 0.25rem;
+     padding-bottom: 2rem;
+}
+
+    .navbar .links-container {
+     display: table;
+     position: absolute;
+     top: 0;
+     right: 0;
+     height: 70px;
+     color: #57BEB6;
+     text-decoration: none;
+     padding-right: 0.1rem;
+ }
+    .links-container .navbar-link {
+     display: table-cell;
+     position: relative;
+     height: 100%;
+     padding-left: 1rem;
+     padding-right: 1rem;
+     vertical-align: middle;
+     color: white;
+     font-size: 0.75rem;
+     letter-spacing: 0.05rem;
+     font-weight: 700;
+     text-transform: uppercase;
+     text-decoration: none;
+     cursor: pointer;
+}
+    
+    .about-me {
+     position: relative;
+     min-height: 400px;
+     background-image: url("../images/coffee.jpg");
+     background-repeat: no-repeat;
+     background-position: top center;
+     background-size: cover;
+}
+
+     .about-me .about-title {
+      position: absolute;
+      top: 20%;
+      -webkit-transform: translateY(-50%);
+      -moz-transform: translateY(-50%);
+      transform: translateY(-50%);
+      width: 100%;
+      text-align: right;
+      font-size: 1rem;
+      font-weight: 250;
+      text-transform: uppercase;
+      letter-spacing: 0.25rem;
+      color: white;
+      line-height: 1rem;
+      right: 1%;
+}
+     .aboutme h2 {
+      font-size: 1rem; 
+}
+}
+
+/* PORTRAIT PHONES */
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+
+}
+
+@media (min-width: 768px) {
+   .container {
+     width: 750px;
+   }
+ }
+
+ @media (min-width: 992px) {
+   .container {
+     width: 970px;
+   }
+   .one-half {
+     width:46%;
+   }
+   .one-third {
+     width:29.33333%;
+   }
+   .one-fourth {
+     width:21%;
+   }
+ }
+
+ @media (min-width: 1200px) {
+   .container {
+       width: 1170px; }
+ }
 
 .message {
     font-family:'Comfortaa',arial,sans-serif;
@@ -393,10 +497,11 @@ label.error {
     -moz-border-radius:6px;
     border-radius:6px;
 }
-  /* FOOTER */ 
+
+/* FOOTER */ 
 footer {
     color: #FFFFFF;
-    height: 150px;
+    height: 50px;
     position: relative;
     overflow: hidden;
     z-index: 0;
@@ -407,26 +512,5 @@ footer {
     font-size: 30px;
     padding-top: 10px;
     padding-right: 45px;
+    background-color: #4A4A4A;
 }
-
- footer nav ul {
-     list-style-type: none;
-     text-align: center;
-     margin-top: 10px;
-     height: 50px;
- }
-    
-
-
-  @media (min-width: 992px){
-   footer{
-     background-color: #4A4A4A;
-     height: 50px;
-   }
-   footer p, footer nav ul{
-     padding: 2em 0;
-     text-align: center;
-   }
- }
-
-
