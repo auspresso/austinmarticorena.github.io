@@ -25,7 +25,7 @@ body {
   top: 0;
   width: 100%;
   overflow: hidden;
-  opacity: 0.9;
+  opacity: 1;
   background-color: #F15C56;
   height: 71px;
  }
@@ -93,8 +93,8 @@ img {
      background-image: url("../images/homepage.png");
      background-repeat: no-repeat;
      background-position: top center;
-     background-size: auto;
      position: relative;
+     width: 100%;
 
 }
 
@@ -157,7 +157,7 @@ img {
 }
 
 .itinerary {
-     min-height: 500px;
+     min-height: 450px;
      background-image: url("../images/Itinerary.png");
      background-repeat: no-repeat;
      background-size: contain;
@@ -166,7 +166,7 @@ img {
 }
 
 .sortchange {
-     min-height: 500px;
+     min-height: 450px;
      background-image: url("../images/sort.png");
      background-repeat: no-repeat;
      background-size: contain;
@@ -175,7 +175,7 @@ img {
 }
 
 .navchange {
-     min-height: 500px;
+     min-height: 450px;
      background-image: url("../images/nav.png");
      background-repeat: no-repeat;
      background-size: contain;
@@ -345,8 +345,147 @@ img {
 
 
 /* TABLETS & DESKTOP */
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 1000px) {
+     .giphy {
+     min-height: 400px;
+     background-image: url("../images/grand.gif");
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+}
+     .solution {
+     min-height: 600px;
+     background-image: url("../images/homepage.png");
+     background-repeat: no-repeat;
+     background-position: top center;
+     background-size: contain;
+     position: relative;
+     width: 100%;
+}
+    .solution {
+     min-height: 500px;
+     background-image: url("../images/homepage.png");
+     background-repeat: no-repeat;
+     background-position: top center;
+     background-size: contain;
+     position: relative;
+     width: 100%;
 
+}
+    .problem-photo {
+     min-height: 350px;
+     background-image: url("../images/stata.png");
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: contain;
+     position: relative;
+     width: 100%;
+
+}
+.surveyfeedback {
+     min-height: 500px;
+     background-image: url("../images/survey.png");
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: contain;
+     position: relative;
+     width: 100%;
+
+}
+
+.personas {
+     min-height: 400px;
+     background-image: url("../images/personas.png");
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: contain;
+     position: relative;
+     width: 100%;
+
+}
+
+.userflow {
+     min-height: 400px;
+     background-image: url("../images/userflow.png");
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: contain;
+     position: relative;
+     width: 100%;
+
+}
+
+.lowfid {
+     min-height: 400px;
+     background-image: url("../images/low.png");
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: contain;
+     position: static;
+     width: 100%;
+
+}
+
+.brandidentity {
+     min-height: 600px;
+     background-image: url("../images/branding.png");
+     background-repeat: no-repeat;
+     background-size: contain;
+     position: relative;
+     width: 100%;
+
+}
+
+.highfidelity {
+     min-height: 700px;
+     background-image: url("../images/highf.png");
+     background-repeat: no-repeat;
+     background-size: contain;
+     position: relative;
+     width: 100%;
+
+}
+
+.itinerary {
+     min-height: 325px;
+     background-image: url("../images/Itinerary.png");
+     background-repeat: no-repeat;
+     background-size: contain;
+     position: relative;
+     width: 100%;
+
+}
+
+.sortchange {
+     min-height: 325px;
+     background-image: url("../images/sort.png");
+     background-repeat: no-repeat;
+     background-size: contain;
+     position: relative;
+     width: 100%;
+
+}
+
+.navchange {
+     min-height: 325px;
+     background-image: url("../images/nav.png");
+     background-repeat: no-repeat;
+     background-size: contain;
+     position: relative;
+     width: 100%;
+
+}
+}
+
+@media only screen and (max-width: 600px) {
+     .giphy {
+     min-height: 200px;
+     background-image: url("../images/grand.gif");
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+
+}
 }
 
 /* PHONES */
@@ -422,8 +561,121 @@ img {
     font-size: 18px;
     font-weight: 100;
     padding-left: 0.75rem;
-}
+}   
     
+    .solution {
+     min-height: 350px;
+     background-image: url("../images/homepage.png");
+     background-repeat: no-repeat;
+     background-position: top center;
+     background-size: contain;
+     position: relative;
+     width: 100%;
+
+}
+    .problem-photo {
+     min-height: 350px;
+     background-image: url("../images/stata.png");
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: contain;
+     position: relative;
+     width: 100%;
+
+}
+.surveyfeedback {
+     min-height: 200px;
+     background-image: url("../images/survey.png");
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: contain;
+     position: relative;
+     width: 100%;
+
+}
+
+.personas {
+     min-height: 200px;
+     background-image: url("../images/personas.png");
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: contain;
+     position: relative;
+     width: 100%;
+
+}
+
+.userflow {
+     min-height: 300px;
+     background-image: url("../images/userflow.png");
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: contain;
+     position: relative;
+     width: 100%;
+
+}
+
+.lowfid {
+     min-height: 200px;
+     background-image: url("../images/low.png");
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: contain;
+     position: static;
+     width: 100%;
+
+}
+
+.brandidentity {
+     min-height: 400px;
+     background-image: url("../images/branding.png");
+     background-repeat: no-repeat;
+     background-size: contain;
+     position: relative;
+     width: 100%;
+
+}
+
+.highfidelity {
+     min-height: 450px;
+     background-image: url("../images/highf.png");
+     background-repeat: no-repeat;
+     background-size: contain;
+     position: relative;
+     width: 100%;
+
+}
+
+.itinerary {
+     min-height: 200px;
+     background-image: url("../images/Itinerary.png");
+     background-repeat: no-repeat;
+     background-size: contain;
+     position: relative;
+     width: 100%;
+
+}
+
+.sortchange {
+     min-height: 200px;
+     background-image: url("../images/sort.png");
+     background-repeat: no-repeat;
+     background-size: contain;
+     position: relative;
+     width: 100%;
+
+}
+
+.navchange {
+     min-height: 200px;
+     background-image: url("../images/nav.png");
+     background-repeat: no-repeat;
+     background-size: contain;
+     position: relative;
+     width: 100%;
+
+} 
 }
 
 /* PORTRAIT PHONES */
@@ -473,4 +725,37 @@ footer {
     padding-top: 10px;
     padding-right: 45px;
     background-color: #4A4A4A;
+}
+
+a.linked {
+    color: #FFF;
+    -webkit-transition: .5s;
+    transition: .5s;
+    cursor: pointer;
+}
+
+a.linked:hover, a.linked:hover {
+    color: #F15C56;
+}
+
+a.git {
+    color: #FFF;
+    -webkit-transition: .5s;
+    transition: .5s;
+    cursor: pointer;
+}
+
+a.git:hover, a.git:hover {
+    color: #F15C56;
+}
+
+a.dribb {
+    color: #FFF;
+    -webkit-transition: .5s;
+    transition: .5s;
+    cursor: pointer;
+}
+
+a.dribb:hover, a.dribb:hover {
+    color: #F15C56;
 }

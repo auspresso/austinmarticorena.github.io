@@ -25,7 +25,7 @@ body {
   top: 0;
   width: 100%;
   overflow: hidden;
-  opacity: 0.9;
+  opacity: 1;
   background-color: #F15C56;
   height: 71px;
  }
@@ -396,6 +396,96 @@ img {
     font-weight: 100;
     padding-left: 0.75rem;
 }
+
+.nsurvey {
+     min-height: 250px;
+     background-image: url("../images/nsurvey.png");
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: contain;
+     position: relative;
+     width: 100%;
+}
+
+
+.npersonas {
+     min-height: 450px;
+     background-image: url("../images/npersona.png");
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: contain;
+     position: relative;
+     width: 100%;
+}
+
+.nflow {
+     min-height: 300px;
+     background-image: url("../images/nflow.png");
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: contain;
+     position: relative;
+     width: 100%;
+}
+
+.nlow {
+     min-height: 400px;
+     background-image: url("../images/nlow.png");
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: contain;
+     position: static;
+     width: 100%;
+}
+
+.nhigh {
+     min-height: 400px;
+     background-image: url("../images/nhigh.png");
+     background-repeat: no-repeat;
+     background-size: contain;
+     position: relative;
+     width: 100%;
+}
+
+.nuno {
+     min-height: 350px;
+     background-image: url("../images/nuno.png");
+     background-repeat: no-repeat;
+     background-size: contain;
+     position: relative;
+     width: 100%;
+}
+
+.ntype {
+     min-height: 450px;
+     background-image: url("../images/ntype.png");
+     background-repeat: no-repeat;
+     background-size: contain;
+     position: relative;
+     width: 100%;
+}
+
+.ndash {
+     min-height: 650px;
+     background-image: url("../images/ndash.png");
+     background-repeat: no-repeat;
+     background-size: contain;
+     position: relative;
+     display: block;
+     margin: 0 auto;
+     width: 100%;
+}
+
+.npal {
+     min-height: 625px;
+     background-image: url("../images/npal.png");
+     background-repeat: no-repeat;
+     background-size: contain;
+     position: relative;
+     display: block;
+     margin: 0 auto;
+     width: 100%;
+}
     
 }
 
@@ -448,4 +538,35 @@ footer {
     background-color: #4A4A4A;
 }
 
+a.linked {
+    color: #FFF;
+    -webkit-transition: .5s;
+    transition: .5s;
+    cursor: pointer;
+}
 
+a.linked:hover, a.linked:hover {
+    color: #F15C56;
+}
+
+a.git {
+    color: #FFF;
+    -webkit-transition: .5s;
+    transition: .5s;
+    cursor: pointer;
+}
+
+a.git:hover, a.git:hover {
+    color: #F15C56;
+}
+
+a.dribb {
+    color: #FFF;
+    -webkit-transition: .5s;
+    transition: .5s;
+    cursor: pointer;
+}
+
+a.dribb:hover, a.dribb:hover {
+    color: #F15C56;
+}
