@@ -25,7 +25,7 @@ body {
   top: 0;
   width: 100%;
   overflow: hidden;
-  opacity: 0.9;
+  opacity: 1;
   background-color: #F15C56;
   height: 71px;
  }
@@ -159,12 +159,16 @@ img {
     height: 500px;
     text-align: center;
     background-color: #57BEB6;
+    -webkit-transition: .25s;
+    transition: .25s;
+    cursor: pointer;
     }
 
-  .box:hover {
+  .box:hover, .box:hover {
     background-color: #F15C56;
     cursor: pointer;
   }
+
 
 
 .gesha {
@@ -216,7 +220,7 @@ img {
     font-size: 14px;
     text-align: left;
     display: inline-block;
-    color: black;
+    color: white;
     width: 500px;
 }
 
@@ -328,8 +332,94 @@ label.error {
 
 
 /* TABLETS & DESKTOP */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 2000px) {
+.about-me {
+     min-height: 1400px;
+     position: relative;
+     background-image: url("../images/coffee.jpg");
+     background-repeat: no-repeat;
+     background-position: center top;
+     background-size: cover;
+}
+}
 
+
+@media only screen and (max-width: 2000px) {
+    .box {
+     width: 350px;
+     height: 350px;
+    }
+    .point .point-title {
+     font-size: 3rem;
+     color: #FFFFFF;
+     text-align: center;
+     font-weight: normal;
+ }
+
+    .point .point-description {
+     font-size: 1.25rem;
+     color: #4A4A4A;
+     text-align: center;
+     font-weight: lighter;
+     padding-bottom: 2rem;
+}
+    
+     .gesha {
+     width: 350px;
+     height: 350px;
+     background-position: center bottom;
+}
+
+    .truvay {
+     width: 350px;
+     height: 350px;
+}
+
+    .notebox {
+     width: 350px;
+     height: 350px;
+     background-position: center bottom;
+}
+}
+
+
+
+@media only screen and (max-width: 1020px) {
+    .box {
+     width: 250px;
+     height: 250px;
+    }
+    .point .point-title {
+     font-size: 3rem;
+     color: #FFFFFF;
+     text-align: center;
+     font-weight: normal;
+ }
+
+    .point .point-description {
+     font-size: 1.25rem;
+     color: #4A4A4A;
+     text-align: center;
+     font-weight: lighter;
+     padding-bottom: 2rem;
+}
+    
+     .gesha {
+     width: 250px;
+     height: 250px;
+     background-position: center bottom;
+}
+
+    .truvay {
+     width: 250px;
+     height: 250px;
+}
+
+    .notebox {
+     width: 250px;
+     height: 250px;
+     background-position: center bottom;
+}
 }
 
 /* PHONES */
@@ -345,6 +435,14 @@ label.error {
      font-weight: normal;
  }
 
+.about-me {
+     position: relative;
+     max-height: 300px;
+     background-image: url("../images/coffee.jpg");
+     background-repeat: no-repeat;
+     background-position: left bottom;
+     background-size: cover;
+}
     .point .point-description {
      font-size: 0.75rem;
      color: #4A4A4A;
@@ -353,13 +451,13 @@ label.error {
 }
     .aboutme p {
      line-height: 1.5rem;
-     font-size: 10px;
+     font-size: 12px;
      text-align: left;
      display: inline-block;
-     color: black;
+     color: white;
      width: 250px;
-     padding-left: 1rem;
-     padding-right: 1rem;
+     padding-left: 0.5rem;
+     padding-right: 0.5rem;
 }
     .gesha {
      width: 200px;
@@ -427,8 +525,9 @@ label.error {
      min-height: 400px;
      background-image: url("../images/coffee.jpg");
      background-repeat: no-repeat;
-     background-position: top center;
+     background-position: center center;
      background-size: cover;
+     max-width: 100%;
 }
 
      .about-me .about-title {
@@ -513,4 +612,37 @@ footer {
     padding-top: 10px;
     padding-right: 45px;
     background-color: #4A4A4A;
+}
+
+a.linked {
+    color: #FFF;
+    -webkit-transition: .5s;
+    transition: .5s;
+    cursor: pointer;
+}
+
+a.linked:hover, a.linked:hover {
+    color: #F15C56;
+}
+
+a.git {
+    color: #FFF;
+    -webkit-transition: .5s;
+    transition: .5s;
+    cursor: pointer;
+}
+
+a.git:hover, a.git:hover {
+    color: #F15C56;
+}
+
+a.dribb {
+    color: #FFF;
+    -webkit-transition: .5s;
+    transition: .5s;
+    cursor: pointer;
+}
+
+a.dribb:hover, a.dribb:hover {
+    color: #F15C56;
 }
