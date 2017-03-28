@@ -25,7 +25,7 @@ body {
   top: 0;
   width: 100%;
   overflow: hidden;
-  opacity: 0.9;
+  opacity: 1;
   background-color: #F15C56;
   height: 71px;
  }
@@ -78,13 +78,12 @@ img {
 
 
 .coffee-graph {
-     min-height: 350px;
+     min-height: 400px;
      background-image: url("../images/coffeechart.png");
      background-repeat: no-repeat;
      background-position: center center;
      background-size: contain;
      position: relative;
-     margin-right: 530px;
 
 }
 
@@ -139,7 +138,7 @@ img {
 }
 
 .early {
-     min-height: 400px;
+     min-height: 500px;
      background-image: url("../images/early.png");
      background-repeat: no-repeat;
      background-size: contain;
@@ -148,7 +147,7 @@ img {
 }
 
 .gidentity {
-     min-height: 800px;
+     min-height: 1000px;
      background-image: url("../images/gtype.png");
      background-repeat: no-repeat;
      background-size: contain;
@@ -349,8 +348,139 @@ img {
 
 
 /* TABLETS & DESKTOP */
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 1000) {
+     .steve {
+     min-height: 400px;
+     background-image: url("../images/steve.gif");
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+}
+ .coffee-graph {
+     min-height: 500px;
+     background-image: url("../images/coffeechart.png");
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: contain;
+     position: relative;
+     width: 100%;
 
+}
+
+.coffee-market {
+     min-height: 500px;
+     background-image: url("../images/Group.png");
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: cover;
+     position: relative;
+     width: 100%;
+}
+
+.gesha-survey {
+     min-height: 400px;
+     background-image: url("../images/geshasurvey.png");
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: contain;
+     position: relative;
+     width: 100%;
+}
+
+.gpersonas {
+     min-height: 400px;
+     background-image: url("../images/gpersona.png");
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: contain;
+     position: relative;
+     width: 100%;
+}
+
+.gflow {
+     min-height: 600px;
+     background-image: url("../images/gflow.png");
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: contain;
+     position: relative;
+     width: 100%;
+}
+
+.sketches {
+     min-height: 500px;
+     background-image: url("../images/sketches.jpg");
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: cover;
+     position: static;
+     width: 100%;
+}
+
+.early {
+     min-height: 500px;
+     background-image: url("../images/early.png");
+     background-repeat: no-repeat;
+     background-size: contain;
+     position: relative;
+     width: 100%;
+}
+
+.gidentity {
+     min-height: 800px;
+     background-image: url("../images/gtype.png");
+     background-repeat: no-repeat;
+     background-size: contain;
+     position: relative;
+     width: 100%;
+}
+
+.hfid {
+     min-height: 400px;
+     background-image: url("../images/hfid.png");
+     background-repeat: no-repeat;
+     background-size: contain;
+     position: relative;
+     width: 100%;
+}
+
+.login {
+     min-height: 100px;
+     background-image: url("../images/land.png");
+     background-repeat: no-repeat;
+     background-size:contain;
+     position: relative;
+     width: 100%;
+}
+
+.gps {
+     min-height: 400px;
+     background-image: url("../images/gps.png");
+     background-repeat: no-repeat;
+     background-size: contain;
+     position: relative;
+     width: 100%;
+}
+
+.tip {
+     min-height: 400px;
+     background-image: url("../images/tip.png");
+     background-repeat: no-repeat;
+     background-size: contain;
+     position: relative;
+     width: 100%;
+} 
+}
+}
+
+@media only screen and (max-width: 600px) {
+     .steve {
+     min-height: 150px;
+     background-image: url("../images/steve.gif");
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative; 
+}
 }
 
 /* PHONES */
@@ -427,7 +557,126 @@ img {
     font-weight: 100;
     padding-left: 0.75rem;
 }
-    
+ .coffee-graph {
+     min-height: 350px;
+     background-image: url("../images/coffeechart.png");
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: contain;
+     position: relative;
+     width: 100%;
+}
+
+.coffee-market {
+     min-height: 300px;
+     background-image: url("../images/Group.png");
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: cover;
+     position: relative;
+     width: 100%;
+}
+
+.gesha-survey {
+     min-height: 200px;
+     background-image: url("../images/geshasurvey.png");
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: contain;
+     position: relative;
+     width: 100%;
+}
+
+.gpersonas {
+     min-height: 200px;
+     background-image: url("../images/gpersona.png");
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: contain;
+     position: relative;
+     width: 100%;
+}
+
+.gflow {
+     min-height: 300px;
+     background-image: url("../images/gflow.png");
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: contain;
+     position: relative;
+     width: 100%;
+}
+
+.sketches {
+     min-height: 300px;
+     background-image: url("../images/sketches.jpg");
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: cover;
+     position: static;
+     width: 100%;
+}
+
+.early {
+     min-height: 300px;
+     background-image: url("../images/early.png");
+     background-repeat: no-repeat;
+     background-size: contain;
+     position: relative;
+     width: 100%;
+}
+
+.gidentity {
+     min-height: 450px;
+     background-image: url("../images/gtype.png");
+     background-repeat: no-repeat;
+     background-size: contain;
+     position: relative;
+     width: 100%;
+}
+
+.hfid {
+     min-height: 200px;
+     background-image: url("../images/hfid.png");
+     background-repeat: no-repeat;
+     background-size: contain;
+     position: relative;
+     width: 100%;
+}
+
+.login {
+     min-height: 200px;
+     background-image: url("../images/land.png");
+     background-repeat: no-repeat;
+     background-size:contain;
+     position: relative;
+     width: 100%;
+}
+
+.gps {
+     min-height: 200px;
+     background-image: url("../images/gps.png");
+     background-repeat: no-repeat;
+     background-size: contain;
+     position: relative;
+     width: 100%;
+}
+
+.tip {
+     min-height: 200px;
+     background-image: url("../images/tip.png");
+     background-repeat: no-repeat;
+     background-size: contain;
+     position: relative;
+     width: 100%;
+}
+     .steve {
+     min-height: 150px;
+     background-image: url("../images/steve.gif");
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative; 
+}
 }
 
 /* PORTRAIT PHONES */
@@ -479,4 +728,36 @@ footer {
     background-color: #4A4A4A;
 }
 
+a.linked {
+    color: #FFF;
+    -webkit-transition: .5s;
+    transition: .5s;
+    cursor: pointer;
+}
+
+a.linked:hover, a.linked:hover {
+    color: #F15C56;
+}
+
+a.git {
+    color: #FFF;
+    -webkit-transition: .5s;
+    transition: .5s;
+    cursor: pointer;
+}
+
+a.git:hover, a.git:hover {
+    color: #F15C56;
+}
+
+a.dribb {
+    color: #FFF;
+    -webkit-transition: .5s;
+    transition: .5s;
+    cursor: pointer;
+}
+
+a.dribb:hover, a.dribb:hover {
+    color: #F15C56;
+}
 
