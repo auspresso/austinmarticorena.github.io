@@ -171,7 +171,7 @@ img {
 }
 
 .gps {
-     min-height: 600px;
+     min-height: 500px;
      background-image: url("../images/gps.png");
      background-repeat: no-repeat;
      background-size: contain;
