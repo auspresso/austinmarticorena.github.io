@@ -186,6 +186,14 @@ img {
      position: relative;
 }
 
+.homie {
+     min-height: 500px;
+     background-image: url("../images/ghome.png");
+     background-repeat: no-repeat;
+     background-size: contain;
+     position: relative;
+}
+
 .steve {
      min-height: 400px;
      background-image: url("../images/steve.gif");
@@ -469,6 +477,14 @@ img {
      background-size: contain;
      position: relative;
      width: 100%;
+}
+.homie {
+     min-height: 400px;
+     background-image: url("../images/ghome.png");
+     background-repeat: no-repeat;
+     background-size: contain;
+     position: relative;
+     width: 100%;
 } 
 }
 }
@@ -673,7 +689,7 @@ img {
     
 .homie {
      min-height: 200px;
-     background-image: url("../images/tip.png");
+     background-image: url("../images/ghome.png");
      background-repeat: no-repeat;
      background-size: contain;
      position: relative;
@@ -769,3 +785,4 @@ a.dribb {
 a.dribb:hover, a.dribb:hover {
     color: #F15C56;
 }
+
