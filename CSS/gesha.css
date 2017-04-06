@@ -163,7 +163,7 @@ img {
 }
 
 .login {
-     min-height: 600px;
+     min-height: 500px;
      background-image: url("../images/land.png");
      background-repeat: no-repeat;
      background-size:contain;
