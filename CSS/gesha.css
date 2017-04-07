@@ -194,6 +194,22 @@ img {
      position: relative;
 }
 
+.menu {
+     min-height: 500px;
+     background-image: url("../images/menu.png");
+     background-repeat: no-repeat;
+     background-size: contain;
+     position: relative;
+}
+
+.order {
+     min-height: 500px;
+     background-image: url("../images/order.png");
+     background-repeat: no-repeat;
+     background-size: contain;
+     position: relative;
+}
+
 .steve {
      min-height: 400px;
      background-image: url("../images/steve.gif");
@@ -485,6 +501,22 @@ img {
      background-size: contain;
      position: relative;
      width: 100%;
+}
+.menu {
+     min-height: 400px;
+     background-image: url("../images/menu.png");
+     background-repeat: no-repeat;
+     background-size: contain;
+     position: relative;
+     width: 100%;
+}
+.order {
+     min-height: 400px;
+     background-image: url("../images/order.png");
+     background-repeat: no-repeat;
+     background-size: contain;
+     position: relative;
+     width: 100%;
 } 
 }
 }
@@ -690,6 +722,24 @@ img {
 .homie {
      min-height: 200px;
      background-image: url("../images/ghome.png");
+     background-repeat: no-repeat;
+     background-size: contain;
+     position: relative;
+     width: 100%;
+}
+
+.menu {
+     min-height: 200px;
+     background-image: url("../images/menu.png");
+     background-repeat: no-repeat;
+     background-size: contain;
+     position: relative;
+     width: 100%;
+}
+    
+.order {
+     min-height: 200px;
+     background-image: url("../images/order.png");
      background-repeat: no-repeat;
      background-size: contain;
      position: relative;
