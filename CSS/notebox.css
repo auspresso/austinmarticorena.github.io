@@ -10,13 +10,13 @@ html {
 }
 
 body {
-    font-family: 'Comfortaa';
+    font-family: 'Raleway';
     color: white;
     min-height: 100%;
 }
 
  .navbar {
-  position: relative;
+  position: absolute;
   padding-left: 2rem;
   padding-right: 2rem;
   padding-top: 0.25rem;
@@ -24,9 +24,6 @@ body {
   z-index: 1;
   top: 0;
   width: 100%;
-  overflow: hidden;
-  opacity: 1;
-  background-color: #F15C56;
   height: 71px;
  }
 
@@ -43,7 +40,7 @@ body {
   top: 0;
   right: 0;
   height: 70px;
-  color: #FFFFFF;
+  color: #F15C56;
   text-decoration: none;
   padding-right: 2rem;
  }
@@ -55,39 +52,52 @@ body {
     padding-left: 2rem;
     padding-right: 2rem;
     vertical-align: middle;
-    color: white;
+    color: #F15C56;
     font-size: 0.75rem;
     letter-spacing: 0.05rem;
-    font-weight: 700;
+    font-weight: 500;
     text-transform: uppercase;
     text-decoration: none;
     cursor: pointer;
 }
 
 .links-container .navbar-link:hover {
-    color: #4A4A4A;
+    color: #57BEB6;
     
 }
 
-img {
+.hero img {
     max-width: 100%;
     width: auto/9;
     vertical-align: middle;
-    border: 0;
+    text-align: center;
+    padding-left: 20em;
+    padding-right: 20em;
+    padding-top: 5em;
+
 }
+
+
+.logo img {
+    max-width: 70%;
+    width: auto/9;
+    vertical-align: middle;
+    text-align: center;
+}
+
 
 .header h1 {
     color: #F15C56;
     font-style: normal;
     font-size: 64px;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 .header h2 {
-    color: #4A4A4A;
+    color: #425657;
     font-style: lighter;
     font-size: 24px;
-    font-weight: 100;
+    font-weight: 300;
 } 
 
 
@@ -96,7 +106,7 @@ img {
     text-align: left;
     font-style: normal;
     font-size: 32px;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 .overview h2 {
@@ -104,15 +114,15 @@ img {
     text-align: left;
     font-style: normal;
     font-size: 24px;
-    font-weight: 100; 
+    font-weight: 300; 
 }
 
 .overview p {
-    color: #4A4A4A;
+    color: #425657;
     text-align: left;
     font-style: lighter;
     font-size: 16px;
-    font-weight: 100;
+    font-weight: 400;
     line-height: 1.5rem;
 }
 
@@ -318,11 +328,45 @@ img {
 
 
 /* TABLETS & DESKTOP */
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 1000px) {
+.column.half {width: 100%; }
 
+.workbtn {
+  font-size: 12px;
+}
+    
+    .hero img {
+    max-width: 100%;
+    width: auto/9;
+    vertical-align: middle;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 5em;
+
+}
 }
 
 /* PHONES */
+@media only screen and (max-width: 767px) {
+.column.half {width: 100%; }
+
+.workbtn {
+  font-size: 12px;
+}
+    
+    .hero img {
+    max-width: 100%;
+    width: auto/9;
+    vertical-align: middle;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 5em;
+
+}
+
+
 @media only screen and (max-width: 767px) {
     .navbar {
      position: relative;
@@ -488,7 +532,7 @@ img {
 }
     
 }
-
+}
 /* PORTRAIT PHONES */
 @media only screen and (max-width: 767px) and (orientation: portrait) {
 
@@ -520,53 +564,53 @@ img {
        width: 1170px; }
  }
 
+.workbtn {
+  margin: auto;
+  background-color:#FFF;
+  padding: 18px 45px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  border-radius: 30px;
+  border: 1px solid #F15C56;
+  -webkit-transition: .5s;
+  transition: .5s;
+  display: table;
+  cursor: pointer;
+  width:60%;
+  color:#F15C56;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Raleway';
+  margin-bottom: 1rem;
+}
+.workbtn:hover, .workbtn:hover {
+  background:#F15C56;
+  border-color: #F15C56;
+  color:#FFF;
+}
     
   /* FOOTER */ 
 footer {
     color: #FFFFFF;
-    height: 50px;
+    height: 75px;
     position: relative;
-    overflow: hidden;
     z-index: 0;
-    margin: 10px auto 0;
     text-align: center;
     font-size:14px;
     font-weight:100;
     font-size: 30px;
     padding-top: 10px;
     padding-right: 45px;
-    background-color: #4A4A4A;
+    background-color: #FFF;
 }
 
 a.linked {
-    color: #FFF;
+    color: #B3C9BD;
     -webkit-transition: .5s;
     transition: .5s;
     cursor: pointer;
 }
 
 a.linked:hover, a.linked:hover {
-    color: #F15C56;
-}
-
-a.git {
-    color: #FFF;
-    -webkit-transition: .5s;
-    transition: .5s;
-    cursor: pointer;
-}
-
-a.git:hover, a.git:hover {
-    color: #F15C56;
-}
-
-a.dribb {
-    color: #FFF;
-    -webkit-transition: .5s;
-    transition: .5s;
-    cursor: pointer;
-}
-
-a.dribb:hover, a.dribb:hover {
     color: #F15C56;
 }
