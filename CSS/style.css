@@ -454,28 +454,7 @@ img {
 }
     
     
-.hero h1 {
-    text-align: center;
-    padding-top: 5rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    position: relative;
-    font-size: 80px;
-    display: grid;
-    color: #425657;
-    font-weight: 600;
-}
 
-.hero h2 {
-    text-align: center;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    font-size: 30px;
-    color: #929292;
-    margin-bottom: 100px;
-    line-height: 2.2rem;  
-    font-weight: 400;
-}
     
     .box {
      width: 400px;
