@@ -1,881 +1,281 @@
-*,*::before,*::after {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<title>UX Designer | Austin Marticorena</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta charset="UTF-8">
 
-html {
-    height: 100%;
-    font-size: 100%;
-}
 
-body {
-    font-family: 'Raleway';
-    color: white;
-    min-height: 100%;
-}
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet" type='text/css'>
 
- .navbar {
-  position: absolute;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
-  z-index: 1;
-  top: 0;
-  width: 100%;
-  height: 71px;
- }
-
-.navbar .logo {
-  padding-left: 1rem;
-  padding-right: 2rem;
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
-}
-
- .navbar .links-container {
-  display: table;
-  position: absolute;
-  top: 0;
-  right: 0;
-  height: 70px;
-  color: #F15C56;
-  text-decoration: none;
-  padding-right: 2rem;
- }
-
- .links-container .navbar-link {
-    display: table-cell;
-    position: relative;
-    height: 100%;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    vertical-align: middle;
-    color: #F15C56;
-    font-size: 0.75rem;
-    letter-spacing: 0.05rem;
-    font-weight: 500;
-    text-transform: uppercase;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.links-container .navbar-link:hover {
-    color: #57BEB6;
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="CSS/normalize.css">
+<link rel="stylesheet" type="text/css" href="CSS/font-awesome.css">
+<link rel="stylesheet" type="text/css" href="CSS/gesha.css">
+</head>
+<body>
     
-}
+<!-- NAVIGATION -->
+	<!-- Site Logo -->
+<nav class="navbar">
+<div class="logo">
+<a href="index.html" class="logo">
+<img src="images/site-logo.png" alt="Portfolio Logo" height="50" width="50"/></a>
+</div>
 
-.hero img {
-    max-width: 65%;
-    max-height: 2000px;
-    width: auto/9;
-    vertical-align: middle;
-    text-align: center;
-    padding-left: 40em;
-    padding-top: 5em;
+	<!-- Navigation Links -->
+<div class="links-container">
+<a href="index.html#work" class="navbar-link">Work</a>
+<a href="index.html#about" class="navbar-link">About</a>
+<a href="index.html#contact" class="navbar-link">Contact</a>
+</div>
+</nav>
 
-}
+<!-- Hero -->
+<div class = "hero">
+<a href="#work">  
+<img class= "hero" src="../images/hand.png" alt="header image" />
+</a>
+</div> 
 
-
-.logo img {
-    max-width: 70%;
-    width: auto/9;
-    vertical-align: middle;
-    text-align: center;
-}
-
-
-.coffee-graph {
-     min-height: 400px;
-     background-image: url("../images/coffeechart.png");
-     background-repeat: no-repeat;
-     background-position: center center;
-     background-size: contain;
-     position: relative;
-
-}
-
-.coffee-market {
-     min-height: 500px;
-     background-image: url("../images/Group.png");
-     background-repeat: no-repeat;
-     background-position: center center;
-     background-size: cover;
-     position: relative;
-
-}
-
-.gesha-survey {
-     min-height: 500px;
-     background-image: url("../images/geshasurvey.png");
-     background-repeat: no-repeat;
-     background-position: center center;
-     background-size: contain;
-     position: relative;
-
-}
-
-.gpersonas {
-     min-height: 500px;
-     background-image: url("../images/gpersona.png");
-     background-repeat: no-repeat;
-     background-position: center center;
-     background-size: contain;
-     position: relative;
-
-}
-
-.gflow {
-     min-height: 500px;
-     background-image: url("../images/gflow.png");
-     background-repeat: no-repeat;
-     background-position: center center;
-     background-size: contain;
-     position: relative;
-
-}
-
-.sketches {
-     min-height: 500px;
-     background-image: url("../images/sketches.jpg");
-     background-repeat: no-repeat;
-     background-position: center center;
-     background-size: cover;
-     position: static;
-
-}
-
-.early {
-     min-height: 500px;
-     background-image: url("../images/early.png");
-     background-repeat: no-repeat;
-     background-size: contain;
-     position: relative;
-
-}
-
-.gidentity {
-     min-height: 1000px;
-     background-image: url("../images/gtype.png");
-     background-repeat: no-repeat;
-     background-size: contain;
-     position: relative;
-}
-
-.hfid {
-     min-height: 500px;
-     background-image: url("../images/hfid.png");
-     background-repeat: no-repeat;
-     background-size: contain;
-     position: relative;
-}
-
-.login {
-     min-height: 500px;
-     background-image: url("../images/land.png");
-     background-repeat: no-repeat;
-     background-size:contain;
-     position: relative;
-}
-
-.gps {
-     min-height: 500px;
-     background-image: url("../images/gps.png");
-     background-repeat: no-repeat;
-     background-size: contain;
-     position: relative;
-}
-
-.tip {
-     min-height: 450px;
-     background-image: url("../images/tip.png");
-     background-repeat: no-repeat;
-     background-size: contain;
-     position: relative;
-}
-
-.homie {
-     min-height: 500px;
-     background-image: url("../images/ghome.png");
-     background-repeat: no-repeat;
-     background-size: contain;
-     position: relative;
-}
-
-.menu {
-     min-height: 500px;
-     background-image: url("../images/menu.png");
-     background-repeat: no-repeat;
-     background-size: contain;
-     position: relative;
-}
-
-.order {
-     min-height: 500px;
-     background-image: url("../images/order.png");
-     background-repeat: no-repeat;
-     background-size: contain;
-     position: relative;
-}
-
-.steve {
-     min-height: 400px;
-     background-image: url("../images/steve.gif");
-     background-repeat: no-repeat;
-     background-size: cover;
-     position: relative;
-
-}
-
-.header h1 {
-    color: #F15C56;
-    font-style: normal;
-    font-size: 64px;
-    font-weight: 300;
-}
-
-.header h2 {
-    color: #425657;
-    font-style: lighter;
-    font-size: 24px;
-    font-weight: 300;
-} 
-
-
-.overview h1 {
-    color: #F15C56;
-    text-align: left;
-    font-style: normal;
-    font-size: 32px;
-    font-weight: 300;
-}
-
-.overview h2 {
-    color: #57BEB6;
-    text-align: left;
-    font-style: normal;
-    font-size: 24px;
-    font-weight: 300; 
-}
-
-.overview p {
-    color: #425657;
-    text-align: left;
-    font-style: lighter;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5rem;
-}
-
-.overview ul {
-    color: #4A4A4A;
-    text-align: left;
-    font-style: lighter;
-    font-size: 16px;
-    font-weight: 100;
-    line-height: 1.5rem;
-}
-
-.about-me {
-     position: relative;
-     min-height: 800px;
-     background-image: url("../images/coffee.jpg");
-     background-repeat: no-repeat;
-     background-position: top center;
-     background-size: cover;
-}
-
-.about-me .about-title {
-     position: absolute;
-     top: 15%;
-     -webkit-transform: translateY(-50%);
-     -moz-transform: translateY(-50%);
-     transform: translateY(-50%);
-     width: 100%;
-     text-align: right;
-     font-size: 3rem;
-     font-weight: 250;
-     text-transform: uppercase;
-     letter-spacing: 0.25rem;
-     color: #F15C56;
-     line-height: 2rem;
-     right: 1%;
-}
-
- /* GRID */
- .spcontainer {
-    margin: 0 auto;
-    max-width: 64rem;
-}
-
-
-
- /* WORK */
- .small {
-   font-size: 12px;
-   color: #FEFEFE;
-   line-height: 15px;
-   font-style:italic;
-}
-
- .selling-points {
-     position: relative;
- }
- 
- .point {
-     position: relative;
-     text-align: center;
-     color: #F15C56;
- }
- 
- .point .point-title {
-     font-size: 4rem;
-     color: #FFFFFF;
-     text-align: center;
-     font-weight: normal;
- }
-
-.point .point-description {
-    font-size: 1.5rem;
-    color: #4A4A4A;
-    text-align: center;
-    font-weight: lighter;
-}
-
-.column {
-    float: left;
-        
-    }
+<!-- Case Study Header -->
+<section class="header">
+<div class="container">
+<h1> gesha </h1>
+<h2> design | development | branding</h2>
+</div>
+</section>
     
-.column.full {width: 100%; }
-.column.two-thirds {width: 66.7%; }
-.column.half {width: 50%; }
-.column.third {width: 33.3%; }
-.column.fourth {width: 25%; }
-.column.flow-opposite {float: right; }
-
-.clearfix::before,
-.clearfix::after {
-   content: " ";
-   display: table;
-}
-
-.clearfix::after {
-   clear: both;
-}
-
-  /* ABOUT ME */
- .aboutme h2, .aboutme p {
-   color:#4B5258;
- }
-
- /* CONTACT */
-.container {
-  max-width:1000px;
-  margin:0 auto;
-  text-align:center;
-}
-
-/* MEDIA QUERIES */
-
-
-/* TABLETS & DESKTOP */
-@media only screen and (max-width: 1000) {
-.hero img {
-    max-width: 65%;
-    max-height: 2000px;
-    width: auto/9;
-    vertical-align: middle;
-    text-align: center;
-    padding-left: 10em;
-    padding-top: 5em;
-
-}
-
-.workbtn {
-  font-size: 12px;
-}
+<!-- Overview -->
     
-    .steve {
-     min-height: 400px;
-     background-image: url("../images/steve.gif");
-     background-repeat: no-repeat;
-     background-size: cover;
-     position: relative;
-}
- .coffee-graph {
-     min-height: 500px;
-     background-image: url("../images/coffeechart.png");
-     background-repeat: no-repeat;
-     background-position: center center;
-     background-size: contain;
-     position: relative;
-     width: 100%;
+<section class="overview">
+<div class="container">
 
-}
+<h1> Overview </h1>
+<p>Gesha is a specialty coffee locator which strictly focuses on providing the information and ordering capabilities. The app provides a simple user interface with the ability to locate a shop, where to buy a roaster’s beans, sign up for educational classes and place your order, all within one ecosystem. Gesha takes the guess work out of tracking down the best cup of possible in each city you visit. You can find find the current prototype of Gesha <a href="https://marvelapp.com/g7ie45g"> here.</a> and a early prototype <a href="https://invis.io/5M97B7PW2"> here.</a>
+</p>
 
-.coffee-market {
-     min-height: 500px;
-     background-image: url("../images/Group.png");
-     background-repeat: no-repeat;
-     background-position: center center;
-     background-size: cover;
-     position: relative;
-     width: 100%;
-}
-
-.gesha-survey {
-     min-height: 400px;
-     background-image: url("../images/geshasurvey.png");
-     background-repeat: no-repeat;
-     background-position: center center;
-     background-size: contain;
-     position: relative;
-     width: 100%;
-}
-
-.gpersonas {
-     min-height: 400px;
-     background-image: url("../images/gpersona.png");
-     background-repeat: no-repeat;
-     background-position: center center;
-     background-size: contain;
-     position: relative;
-     width: 100%;
-}
-
-.gflow {
-     min-height: 600px;
-     background-image: url("../images/gflow.png");
-     background-repeat: no-repeat;
-     background-position: center center;
-     background-size: contain;
-     position: relative;
-     width: 100%;
-}
-
-.sketches {
-     min-height: 500px;
-     background-image: url("../images/sketches.jpg");
-     background-repeat: no-repeat;
-     background-position: center center;
-     background-size: cover;
-     position: static;
-     width: 100%;
-}
-
-.early {
-     min-height: 500px;
-     background-image: url("../images/early.png");
-     background-repeat: no-repeat;
-     background-size: contain;
-     position: relative;
-     width: 100%;
-}
-
-.gidentity {
-     min-height: 800px;
-     background-image: url("../images/gtype.png");
-     background-repeat: no-repeat;
-     background-size: contain;
-     position: relative;
-     width: 100%;
-}
-
-.hfid {
-     min-height: 400px;
-     background-image: url("../images/hfid.png");
-     background-repeat: no-repeat;
-     background-size: contain;
-     position: relative;
-     width: 100%;
-}
-
-.login {
-     min-height: 100px;
-     background-image: url("../images/land.png");
-     background-repeat: no-repeat;
-     background-size:contain;
-     position: relative;
-     width: 100%;
-}
-
-.gps {
-     min-height: 400px;
-     background-image: url("../images/gps.png");
-     background-repeat: no-repeat;
-     background-size: contain;
-     position: relative;
-     width: 100%;
-}
-
-.tip {
-     min-height: 400px;
-     background-image: url("../images/tip.png");
-     background-repeat: no-repeat;
-     background-size: contain;
-     position: relative;
-     width: 100%;
-}
-.homie {
-     min-height: 400px;
-     background-image: url("../images/ghome.png");
-     background-repeat: no-repeat;
-     background-size: contain;
-     position: relative;
-     width: 100%;
-}
-.menu {
-     min-height: 400px;
-     background-image: url("../images/menu.png");
-     background-repeat: no-repeat;
-     background-size: contain;
-     position: relative;
-     width: 100%;
-}
-.order {
-     min-height: 400px;
-     background-image: url("../images/order.png");
-     background-repeat: no-repeat;
-     background-size: contain;
-     position: relative;
-     width: 100%;
-} 
-}
-}
-
-@media only screen and (max-width: 600px) {
-     .steve {
-     min-height: 150px;
-     background-image: url("../images/steve.gif");
-     background-repeat: no-repeat;
-     background-size: cover;
-     position: relative; 
-}
-}
-
-/* PHONES */
-@media only screen and (max-width: 767px) {
-.column.half {width: 100%; }
-
-.workbtn {
-  font-size: 12px;
-}
+<h1> Problem </h1>
+<h3 class="coffee-graph"></h3>
+<p>Speciality Coffee makes up over 10% of the US coffee market, and is going market share every year, as can bee seen in the chart above from the Specialty Coffee Association of America. With venture capitalists racing to fund the big players such as Blue Bottle Coffee, Stumptown & La Colombe. However, there is no way of filtering speciality coffee shops, where to find their beans, or which grocery stores carry their products. </p>
     
-    .hero img {
-    max-width: 100%;
-    width: auto/9;
-    vertical-align: middle;
-    text-align: center;
-    padding-left: 1em;
-    padding-right: 1em;
-    padding-top: 5em;
-
-}    
+<h1> Solution </h1>
+<h3 class="coffee-market"></h3>
+<p> Gesha is a simple tool that provides even the most sophisticated coffee geek with the information they want when looking for the fuel for their day. Whether it is discovering the best shops in a new city, placing your daily order, or looking where to pick up a bag of beans from your favorite roaster, Gesha has you covered. Some unique offers of the application include: </p>
+<ul>
+<li> Only specialty coffee roasters and shops are featured on gesha’s platform as mentioned on Sprudge, Drift Magazine & other speciality coffee trade publications</li>
+<br>    
+<li> Each shop/roastery page is filled with current menu options, current coffee offerings as well as the ability to view reviews and leave reviews on almost everything listed on a given roaster page. </li>
+<br> 
+<li> Uniform shop pages decrease the learning curve of placing orders, and gathering the information you are most interested in </li>
+<br>   
+<li> The ability to place your order in advance and have order started once you have reached the roaster to ensure the freshest coffee possible while also skipping the line. </li>
+<br>
+<li> GPS locator to track down the grocery stores, restaurants and markets that carry your favorite coffee. </li>
+</ul>
     
+<h1> Process </h1>
+<p>Having been the owner of a specialty coffee roaster and having visited over 50 roasters throughout multiple states and countries, I had a good understanding of what was missing. Still, I had to ensure I was not the only person facing these problems. I set up a survey to scope out habits, needs and frustrations as well as demographic information. </p>
     
-    .navbar {
-     position: relative;
-     padding-left: 1rem;
-     padding-right: 1rem;
-     padding-top: 0.25rem;
-     padding-bottom: 0.25rem;
-     z-index: 1;
-     top: 0;
-     width: 100%;
-     overflow: hidden;
-     opacity: 0.9;
-     background-color: #F15C56;
-     height: 71px;
- }
+<h2> Survey Feedback </h2>
 
-   .navbar .logo {
-     padding-left: 0.5rem;
-     padding-top: 0.25rem;
-     padding-bottom: 2rem;
-}
+<h2 class="gesha-survey"></h2>
 
-    .navbar .links-container {
-     display: table;
-     position: absolute;
-     top: 0;
-     right: 0;
-     height: 70px;
-     color: #57BEB6;
-     text-decoration: none;
-     padding-right: 0.1rem;
- }
-    .links-container .navbar-link {
-     display: table-cell;
-     position: relative;
-     height: 100%;
-     padding-left: 1rem;
-     padding-right: 1rem;
-     vertical-align: middle;
-     color: white;
-     font-size: 0.75rem;
-     letter-spacing: 0.05rem;
-     font-weight: 700;
-     text-transform: uppercase;
-     text-decoration: none;
-     cursor: pointer;
-}
-    .overview p {
-     color: #425657;
-     text-align: left;
-     font-style: lighter;
-     font-size: 14px;
-     font-weight: 100;
-     line-height: 1.5rem;
-     padding-left: 0.75rem;
-     padding-right: 0.75rem;
-}
-    .overview h1 {
-    color: #F15C56;
-    text-align: left;
-    font-style: normal;
-    font-size: 24px;
-    font-weight: 100;
-    padding-left: 0.75rem;
-}
-    .overview h2 {
-    color: #57BEB6;
-    text-align: left;
-    font-style: normal;
-    font-size: 18px;
-    font-weight: 100;
-    padding-left: 0.75rem;
-}
- .coffee-graph {
-     min-height: 350px;
-     background-image: url("../images/coffeechart.png");
-     background-repeat: no-repeat;
-     background-position: center center;
-     background-size: contain;
-     position: relative;
-     width: 100%;
-}
-
-.coffee-market {
-     min-height: 300px;
-     background-image: url("../images/Group.png");
-     background-repeat: no-repeat;
-     background-position: center center;
-     background-size: cover;
-     position: relative;
-     width: 100%;
-}
-
-.gesha-survey {
-     min-height: 200px;
-     background-image: url("../images/geshasurvey.png");
-     background-repeat: no-repeat;
-     background-position: center center;
-     background-size: contain;
-     position: relative;
-     width: 100%;
-}
-
-.gpersonas {
-     min-height: 200px;
-     background-image: url("../images/gpersona.png");
-     background-repeat: no-repeat;
-     background-position: center center;
-     background-size: contain;
-     position: relative;
-     width: 100%;
-}
-
-.gflow {
-     min-height: 300px;
-     background-image: url("../images/gflow.png");
-     background-repeat: no-repeat;
-     background-position: center center;
-     background-size: contain;
-     position: relative;
-     width: 100%;
-}
-
-.sketches {
-     min-height: 300px;
-     background-image: url("../images/sketches.jpg");
-     background-repeat: no-repeat;
-     background-position: center center;
-     background-size: cover;
-     position: static;
-     width: 100%;
-}
-
-.early {
-     min-height: 300px;
-     background-image: url("../images/early.png");
-     background-repeat: no-repeat;
-     background-size: contain;
-     position: relative;
-     width: 100%;
-}
-
-.gidentity {
-     min-height: 450px;
-     background-image: url("../images/gtype.png");
-     background-repeat: no-repeat;
-     background-size: contain;
-     position: relative;
-     width: 100%;
-}
-
-.hfid {
-     min-height: 200px;
-     background-image: url("../images/hfid.png");
-     background-repeat: no-repeat;
-     background-size: contain;
-     position: relative;
-     width: 100%;
-}
-
-.login {
-     min-height: 200px;
-     background-image: url("../images/land.png");
-     background-repeat: no-repeat;
-     background-size:contain;
-     position: relative;
-     width: 100%;
-}
-
-.gps {
-     min-height: 200px;
-     background-image: url("../images/gps.png");
-     background-repeat: no-repeat;
-     background-size: contain;
-     position: relative;
-     width: 100%;
-}
-
-.tip {
-     min-height: 200px;
-     background-image: url("../images/tip.png");
-     background-repeat: no-repeat;
-     background-size: contain;
-     position: relative;
-     width: 100%;
-}
+<ul>
+<li>From the survey sent out, 50% of respondents go out for coffee multiple times a week with distance and freshness being the top two factors when choosing where to visit. </li>
+    <br>
+<li>38% want a universal app to pay for their coffee, with 29% of respondents being open to trying it out</li>
+    <br>
+<li>Of current mobile coffee app users, the biggest frusterations included lack of information or frequent bug issues</li>
+    <br>
+<li>Almost 70% of respondents make coffee at home multiple times a week with 82% buying their beans from the grocery store. However, there is no easy way to find which grocery stores carry which brands of specialty coffee.</li>
+    <br>
+<li>85% of respondents were between 18-35 years old</li>
+</ul> 
+</p>
     
-.homie {
-     min-height: 200px;
-     background-image: url("../images/ghome.png");
-     background-repeat: no-repeat;
-     background-size: contain;
-     position: relative;
-     width: 100%;
-}
-
-.menu {
-     min-height: 200px;
-     background-image: url("../images/menu.png");
-     background-repeat: no-repeat;
-     background-size: contain;
-     position: relative;
-     width: 100%;
-}
+<h2> Personas </h2>
     
-.order {
-     min-height: 200px;
-     background-image: url("../images/order.png");
-     background-repeat: no-repeat;
-     background-size: contain;
-     position: relative;
-     width: 100%;
-}
-     .steve {
-     min-height: 150px;
-     background-image: url("../images/steve.gif");
-     background-repeat: no-repeat;
-     background-size: cover;
-     position: relative; 
-}
-}
-
-/* PORTRAIT PHONES */
-@media only screen and (max-width: 767px) and (orientation: portrait) {
-
-}
-
-@media (min-width: 768px) {
-   .container {
-     width: 750px;
-   }
- }
-
- @media (min-width: 992px) {
-   .container {
-     width: 970px;
-   }
-   .one-half {
-     width:46%;
-   }
-   .one-third {
-     width:29.33333%;
-   }
-   .one-fourth {
-     width:21%;
-   }
- }
-
- @media (min-width: 1200px) {
-   .container {
-       width: 1170px; }
- }
-
-.workbtn {
-  margin: auto;
-  background-color:#FFF;
-  padding: 18px 45px;
-  -ms-border-radius: 30px;
-  -o-border-radius: 30px;
-  border-radius: 30px;
-  border: 1px solid #F15C56;
-  -webkit-transition: .5s;
-  transition: .5s;
-  display: table;
-  cursor: pointer;
-  width:60%;
-  color:#F15C56;
-  text-decoration: none;
-  text-align: center;
-  font-family: 'Raleway';
-  margin-bottom: 1rem;
-  font-size: 14px;
-}
-.workbtn:hover, .workbtn:hover {
-  background:#F15C56;
-  border-color: #F15C56;
-  color:#FFF;
-}
-
+<h2 class="gpersonas"></h2> 
     
-  /* FOOTER */ 
-footer {
-    color: #FFFFFF;
-    height: 75px;
-    position: relative;
-    z-index: 0;
-    text-align: center;
-    font-size:14px;
-    font-weight:100;
-    font-size: 30px;
-    padding-top: 10px;
-    padding-right: 45px;
-    background-color: #FFF;
-}
+<p>After gathering the feedback from the survey, it indicated there was an opportunity to move forward. Using their feedback, three personas were developed to keep focused on motivations, frustrations and goals of future users. </p>
+    
+<h2> Competitive Analysis </h2>
+<p>The main competition for location services included: Yelp and Foursquare. The main competition for ordering services is Starbucks. Diving into each business helped provide the shortfalls and opportunities for Gesha. You can view the complete competitive analysis <a href="https://drive.google.com/open?id=1nZeC7LdJGgPzQyEodDlPSGt7gNJJ75g0t6NYsmk5rq0">here</a></p>
+    
+<h2> User Flows</h2>
+    
+<h2 class="gflow"></h2>    
+    
+<p>User Flows were developed to start getting a sense of how users would filter through a lot of data, with minimum effort on their end. You can find a detailed look at the flows <a href="https://drive.google.com/file/d/0B5I2M2EpIsFIOWZIcGtKUlpUZFU/view?usp=sharing">here</a></p>
+    
+<h2> User Stories </h2>
+<p>The main user stories included the following:
+<br>
+<br>   
+Users should be able to use their GPS to find specialty coffee shops near them.
+<br>
+<br>
+Users should be able to view a given shops menu and be able to place their order using their phone.
+<br>
+<br>
+Users should be able to add certain roasters to their favorites and be able to find out where they can find their beans outside of their roasteries.
+<br>
+<br>
+Users should be able to read reviews as well as leave reviews on a shop, or particular coffee offering.
+</p>
+    
+<h2> Low-Fidelity Wireframes</h2>
 
-a.linked {
-    color: #B3C9BD;
-    -webkit-transition: .5s;
-    transition: .5s;
-    cursor: pointer;
-}
+<h3 class="sketches"></h3>
+    
+<p>Using the basic user stories above, I create the intial wireframes to start to understand how the application should flow. </p>
+    
+<h2> Creating the Identity </h2>
 
-a.linked:hover, a.linked:hover {
-    color: #F15C56;
-}
+
+
+<p>
+Specialty Coffee is largely built on precision and minimalism. I aimed to build an identity that reflected the standard of the industry and wasn’t too distracting from the experience. </p>
+<br>
+<br>
+    
+<h3 class="early"></h3>    
+<p>    
+I thought of the name Gesha almost immediately after the idea surfaced. Coffee that is classified is ranked among the top 5-10% of coffees in the world. The name is fitting as the app has a strict focus on the best coffee shops and roasters the world has to offer.
+<br>
+<br>
+Almost everything you order in a specialty coffee shop is measured and crafted by hand. While the fast food coffee segment has moved to fully automatic espresso machine and fancy gadgets to save on time, the specialty coffee barista still uses the simplest tools, one of which is a tamper, which is what I decided to use as the logotype
+<br>
+<br>
+The color palette is more neutral tones with the main coral link logo being the most noticeable. The color here represents passion and adventure as well as uniqueness as each specialty coffee roaster is truly a unique experience.
+</p>
+    
+<h3 class="gidentity"></h3>
+    
+<h2> High-Fidelity Wireframes</h2>
+    
+      
+    
+<p>Having the low fidelity wireframes sketched out, logo and color palette, it was time to start building out the the visual aspect of the app. Using Sketch, I started building out the application, focusing on using strong visuals paired with a simple user interface.</p>
+  
+<br>	
+	
+<h3 class="hfid"></h3>
+
+<br>	
+	
+<h2> User Testing Feedback</h2>
+<p>
+Testing throughout the process, there were a few things that need to be added/adjusted </p>
+
+<p>
+<u>Login Page</u>: There was nothing here that gave a brief description of what the app was. Some copy was written to help give new users some idea of what the app was. After making multiple revisions to the application, I took the basic idea of the login page and aimed to make the login page more consistent with the look and feel of the rest of the application, ultimately adding a color background with some small animations throughout the background.</p>
+
+<br>	
+	
+<h4 class="login"></h4>
+
+<br>
+
+<p>
+<u>Home Page</u>: Almost every user test resulted in confusion when presented the home screen. There were two screens you had to get through before you could start searching for coffee shops. After getting this reaction, I follow up with later user tests asking the question before seeing the home page, "what would you expect to see on your home screen?" I ended up using the top three mentioned options and moved those two screens down to one screen, which ultimate lead to less confusion.
+</p>
+
+<br> 
+	
+<h4 class="homie"></h4>    
+
+<br>
+	
+<p>
+<u>GPS View</u>: The first iteration had a lot of options and lead to a lot of confusion on how to actually navigate this page. With the second iteration, I moved the listing to the top of the screen and dialed the noise down a little. In addition, I also added a floating menu button to toggle between the menu and map view. This increase usability , but there were some complaints about readability. In the third iteration, I increased the font and images throughout the page and this version seemed to test well with users.
+</p>
+
+<br>
+	
+<h3 class="gps"></h3>
+    
+<br>
+
+<p>
+<u>Tipping Ability</u>: Baristas rely heavily on tips. I adeed the screen on the left after user feedback that there should be the option to tip your baristas. I had to think and talk through this screen a lot. The feature needed to be available after the order has been picked up. The first iteration has a banner above the pickup ticket, but isn't the easiest feature to use and tries to convey too much information all at once. The second iteration triggers a popup once the user goes to mark the pickup ticket as complete and gives the same options in a more simplified way. There was also the idea of an incentive here, that if the the user doesn't mark the order as complete within 24 hours after picking their order up, it will automatically close with the lowest 15% tip. To ensure baristas won't get stiffed due to people's forgetfulness, but also gives the user an incentives to lower the tip if the service was bad, or customize if the service was exceptional.
+</p>
+  
+<br>	
+	
+<h4 class="tip"></h4>
+
+<br>
+
+
+ <p>
+<u>Menu Item</u>: The main issues raised after the first round of user tests, was the fact that the price couldn't be found while customizing your items. You also lacked the ability to order more than one of that particular item. There was also frustration that there was a lot of clicking that had to be done to view the options and then actually select the option you wanted. After tinkering around, I was able to come up with an option that reduced clicking around and provided the information users were asking to see on this screen. In addition, I reduced a lot of the noise so the overall design was cleaner and easier to navigate.
+</p>
+	
+<br>	
+
+<h3 class="menu"></h3> 
+
+<br>	
+	
+ <p>
+<u>Shopping Cart</u>: The major concern on this screen was that there was an overemphasis on the logo, which led to the information of the shopping cart being extremely hard to read. There was also a lot of clicking around the screen that had to be done in order to finally get the users to click the place order button. The other issue was there was no clear affordance to adding additional items to the order. To address these issues, I added a plus icon at the top of the nav bar to indicate that is where you would click to add another item. I also centered the shopping card, so it was a smoother experience selecting and adding your preferences. One reaction from a user was, "this went from an idea that sounded good to an app I would actually use." 
+</p>
+
+<br>	
+	
+<h3 class="order"></h3>  
+
+<br>
+	
+ <p>
+<u>Color Palette</u>: The last issue I would like to discuss was the color palette. A few users mentioned that the bright red was a little distracting while navigating through the app. I decided to swap the usage of the green and red and A/B test the usage of the palettes. All 15 users chose the green as the dominant nav bar color, so I decided to make the change of the use of the color palette throughout the app. You can see the difference between the two prototypes mentioned early in this case study. 
+</p>
+    
+<h1> Conclusion </h1>
+
+<p> Gesha had a lot of areas it was trying to fill and could have easily been overbearing for users. However, after a lot of brainstorming and user testing, the app received strong indicators from potential users that this fulfilled a problem they had and provided more than thought possible in this space, with NPS scores of nothing less than an 8, which led us to an impromptu Steve Zissou dance session (see gif below).<br/><br/>The app may be targeted to a small subset of the coffee market, but is a tool that every person I talked to thought was valuable. The app has a potential to lay on top of a platform such as Square or Stripe. The model, if successful, can also be applied to more up and coming segments of industries including craft beer and mixologist bars that the Gesha team can look into developing in the future. </p>
+
+
+<h4 class="steve"></h4>    
+    
+</section>
+
+<br>    
+    
+<section class="spcontainer clearfix">
+
+<div class="box point column half ">
+<a class="workbtn" href="truvay.html"><  Previous Case Study</a>
+</div>
+    
+<div class="box point column half ">
+<a class="workbtn" href="notebox.html">Next Case Study  ></a>
+</div>
+    
+</section>
+
+
+ <!-- Footer -->
+<footer>
+<ul class="footcontainer">
+<a class="linked style="text-decoration:none; href= "http://www.austinmarticorena.com"> <img src="images/site-logo.png" alt="Portfolio Logo" height="50" width="50"/></a>
+</ul>
+</footer>
+   
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-93858240-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+	
+</body> 
+</html>
