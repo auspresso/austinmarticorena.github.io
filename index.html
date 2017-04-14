@@ -18,12 +18,15 @@
 </head>
 <body>
     
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+
 <!-- NAVIGATION -->
-	<!-- Site Logo -->
+<!-- Site Logo -->
 <nav class="navbar">
 <div class="logo">
 <a href="index.html" class="logo">
-<img src="images/page-logo.png" alt="Portfolio Logo" height="50" width="50"/></a>
+<img src="images/site-logo.png" alt="Portfolio Logo" height="50" width="50"/></a>
 </div>
 
 	<!-- Navigation Links -->
@@ -35,62 +38,67 @@
 </nav>
 
 <!-- Hero -->
-<a href="#work">  
-<img src="../images/landlandland.png" alt="header image">
-</a>
+<section class="hero">
+<h1>To Pixels + Beyond</h1>
+<h2>Hello, my name is Austin Marticorena. <br>I am a UX Designer obsessed with <br>using design as a medium <br>to make the world a better place.</h2>
+<a class="btn" href="#work">View Work</a>
+</section>
 
+
+    
 <!-- Work -->
 <form id="work">
 <section class="spcontainer clearfix">
-	
-<div class=" truvay point column half">
-</div>
+<br>
+    
+<div class=" truvay point column half"></div>
     
     
-<a href="truvay.html">
+
 <div class="box point column half ">
-<h5 class="point-title">truvay</h5>
+<h5 class="point-title">< truvay </h5>
 <p class="point-description">design + development + branding</p>
-</div>
-</a> 
+<a class="workbtn" href="truvay.html">View Case Study</a>
+</div> 
     
 <div class="point column full"></div>
     
-<a href="gesha.html">
 <div class="box point column half">
-<h5 class="point-title">gesha</h5>
+<h5 class="point-title">gesha ></h5>
 <p class="point-description">design + development + branding</p>
+<a class="workbtn" href="gesha.html">View Case Study</a>
 </div>
-</a>
 
-<div class="gesha point column half">
-</div>
+<div class="gesha point column half"></div>
 
     
 <div class="point column full"></div>
-<div class="notebox point column half">
+    
+<div class="notebox point column half"></div>
+
+
+<div class="box point column half">
+<h5 class="point-title">< notebox</h5>
+<p class="point-description">design + development + branding</p>
+<a class="workbtn" href="notebox.html">View Case Study</a>
 </div>
 
-<a href="notebox.html">
-<div class="box point column half">
-    <h5 class="point-title">notebox</h5>
-    <p class="point-description">design + development + branding</p>
-</div>
-</a>
 </section>
 </form>
 
+<br>
+<br>
+
 <!-- ABOUT ME  -->
 <form id="about">
-<section class="about-me">
-<h1 class="about-title">Hello,<br/><br/>I'm<br/><br/>Austin<br/><br/>Marticorena</h1>
-</section>
     
 <!-- ABOUT ME COPY -->
 <section class="aboutme">
 <div class="container">
 <br/>
+<div class="column half">
 <h2 class="about-logo"> A Little Narrative</h2>
+</div>
 <br/>
 <p>My creative journey began when I was just two years old. My father gave me a plastic tool kit as a birthday gift. Upon coming home one day, he  discovered that I have driven a nail into the staircase with my plastic hammer.  At that moment, he knew I was going to have an interesting future. Those creative juices led me into the realm of music. At the age of 15, I dropped out of high school and became a full-time touring musician signed with an indie label with the band, Chelsea Grin. 
 <br/><br/> 
@@ -101,10 +109,11 @@ Throughout my college career, I started a string of companies ranging from a rec
 Post college, I decided to give the world of technology a try and accepted a position with Qualtrics. My position was extremely analytical and fun, but lacked the creative juju that I needed to keep the spice in life. After about a year, I stumbled upon the world of UX Design and was hooked. It seemed to be that delicate balance of creative and analytical challenges that I was missing.
 <br/><br/> 
 That brings us to today. 9 months of design training through Bloc, I am ready to start my journey as a UX Designer and help take your project up to 11.  
-<br/>  
-</p>
-<h2 class="about-end"> <i class="fa fa-bolt"></i> </h2>
 <br/>
+<br>
+<img src= "images/coffee.jpg">
+<br>
+</p>
 </div>
 </section>
 </form>
@@ -113,27 +122,39 @@ That brings us to today. 9 months of design training through Bloc, I am ready to
 <!-- Contact Form -->
 
 <form id="contact">
-<div class="container">
-<div class="head">
-<h2></h2>
-</div>
-<input type="text" name="name" placeholder="Name" /><br />
-<input  type="email" name="email" placeholder="Email" /><br />
-<input type="subject" name="subject" placeholder="Subject" /><br />
-<textarea type="text" name="message" placeholder="THIS IS A STATIC CONTACT FORM! I have yet to develop the PHP script for a functional contact page. Please click the button below to get rerouted to my temporary Google Form contact page."></textarea><br />
-<a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSdgmzyY-4GinfKopbgz9JBVQYkjHNS1NKNhAzxbrX4tYQ6-bA/viewform?usp=sf_link">
-<i class="fa fa-send"></i>
-</a>
-</div>
+<section class = "concontainer">
+
+<section class="spcontainer clearfix">
+<h2>
+Feel free to reach out to me with any questions
+<br>
+<br>
+<br>
+For work inquiries, email me at:
+<br>
+austinmarticorena@gmail.com
+<br>
+<br>
+<br>
+You can find various design projects of mine on <a class="linked" style="text-decoration:none; " href= "https://dribbble.com/dapperyounglad">Dribbble</a>, 
+<br>
+my professional alter ego on <a class="linked" style="text-decoration:none; " href= "https://www.linkedin.com/in/austinmarticorena">LinkedIn</a>, 
+<br>    
+and my inner nerd on <a class="linked" style="text-decoration:none; " href= "https://github.com/auspresso">GitHub</a>.
+</h2>
+    </section>
+</section>
 </form>
+ 
+    
  <!-- Footer -->
 <footer>
-<ul class="container">
-<a class="linked" style="text-decoration:none; " href= "https://www.linkedin.com/in/austinmarticorena"> <i class="fa fa-linkedin-square"></i></a>
-<a class="git" style="text-decoration:none;" href= "https://github.com/auspresso"> <i class="fa fa-github"></i></a>
-<a class="dribb" style="text-decoration:none;" href= "https://dribbble.com/dapperyounglad"> <i class="fa fa-dribbble"></i> </a>
+<ul class="footcontainer">
+<a class="linked style="text-decoration:none; href= "http://www.austinmarticorena.com"> <img src="images/site-logo.png" alt="Portfolio Logo" height="50" width="50"/></a>
 </ul>
 </footer>
+
+<script src="my.js"></script>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -147,5 +168,7 @@ That brings us to today. 9 months of design training through Bloc, I am ready to
 </script>	
 
 </body>
+
+
 </html>
 
