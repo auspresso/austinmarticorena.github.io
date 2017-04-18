@@ -266,7 +266,7 @@ img {
   }
 
 .gesha {
-     background-image: url("../images/Gesha.png");
+     background-image: url("../images/gesha.png");
      background-repeat: no-repeat;
      min-height: 500px;
      background-size: contain;
@@ -275,7 +275,7 @@ img {
 }
 
 .truvay {
-     background-image: url("../images/Truvay.png");
+     background-image: url("../images/truvay.png");
      background-repeat: no-repeat;
      min-height: 500px;
      background-size: contain;
