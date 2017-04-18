@@ -53,9 +53,9 @@ body {
     padding-right: 2rem;
     vertical-align: middle;
     color: #F15C56;
-    font-size: 0.75rem;
+    font-size: 0.9rem;
     letter-spacing: 0.05rem;
-    font-weight: 500;
+    font-weight: 600;
     text-transform: uppercase;
     text-decoration: none;
     cursor: pointer;
@@ -76,7 +76,6 @@ body {
     padding-top: 5em;
 
 }
-
 
 .logo img {
     max-width: 70%;
@@ -360,7 +359,17 @@ limg {
 }
 
 /* MEDIA QUERIES */
-
+@media only screen and (max-width: 2000px) {
+.hero img {
+    max-width: 100%;
+    width: auto/9;
+    vertical-align: middle;
+    text-align: center;
+    padding-left: 10em;
+    padding-right: 10em;
+    padding-top: 5em;
+}
+}
 
 /* TABLETS & DESKTOP */
 @media only screen and (max-width: 1000px) {
@@ -370,7 +379,7 @@ limg {
   font-size: 12px;
 }
     
-    .hero img {
+.hero img {
     max-width: 100%;
     width: auto/9;
     vertical-align: middle;
@@ -523,7 +532,7 @@ limg {
   font-size: 12px;
 }
     
-    .hero img {
+.hero img {
     max-width: 100%;
     width: auto/9;
     vertical-align: middle;
@@ -534,9 +543,8 @@ limg {
 
 }
 
-    
-    .navbar {
-     position: relative;
+ .navbar {
+     position: absolute;
      padding-left: 1rem;
      padding-right: 1rem;
      padding-top: 0.25rem;
@@ -545,38 +553,36 @@ limg {
      top: 0;
      width: 100%;
      overflow: hidden;
-     opacity: 0.9;
-     background-color: #F15C56;
      height: 71px;
  }
 
-   .navbar .logo {
+.navbar .logo {
      padding-left: 0.5rem;
      padding-top: 0.25rem;
      padding-bottom: 2rem;
 }
 
-    .navbar .links-container {
+.navbar .links-container {
      display: table;
      position: absolute;
      top: 0;
      right: 0;
      height: 70px;
-     color: #57BEB6;
+     color: #F15C56;
      text-decoration: none;
      padding-right: 0.1rem;
  }
-    .links-container .navbar-link {
+.links-container .navbar-link {
      display: table-cell;
      position: relative;
      height: 100%;
      padding-left: 1rem;
      padding-right: 1rem;
      vertical-align: middle;
-     color: white;
-     font-size: 0.75rem;
+     color: #F15C56;
+     font-size: 0.8rem;
      letter-spacing: 0.05rem;
-     font-weight: 700;
+     font-weight: 600;
      text-transform: uppercase;
      text-decoration: none;
      cursor: pointer;
