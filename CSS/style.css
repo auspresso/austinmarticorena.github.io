@@ -73,9 +73,9 @@ body {
     padding-right: 2rem;
     vertical-align: middle;
     color: #F15C56;
-    font-size: 0.75rem;
+    font-size: 0.9rem;
     letter-spacing: 0.05rem;
-    font-weight: 500;
+    font-weight: 600;
     text-transform: uppercase;
     text-decoration: none;
     cursor: pointer;
@@ -103,7 +103,7 @@ body {
     padding-left: 20rem;
     padding-right: 20rem;
     position: relative;
-    font-size: 70px;
+    font-size: 80px;
     display: grid;
     color: #425657;
     font-weight: 600;
@@ -266,27 +266,27 @@ img {
   }
 
 .gesha {
-     background-image: url("../images/gesha.png");
+     background-image: url("../images/Gesha.png");
      background-repeat: no-repeat;
-     min-height: 400px;
+     min-height: 500px;
      background-size: contain;
      position: relative;
      background-position: center;
 }
 
 .truvay {
-     background-image: url("../images/truvay.png");
+     background-image: url("../images/Truvay.png");
      background-repeat: no-repeat;
-     min-height: 400px;
+     min-height: 500px;
      background-size: contain;
      position: relative;
-     background-position: bottom;
+     background-position: center;
 }
 
 .notebox {
      background-image: url("../images/notebox.png");
      background-repeat: no-repeat;
-     min-height: 400px;
+     min-height: 500px;
      background-size: contain;
      position: relative;
      background-position: center;
@@ -344,7 +344,7 @@ img {
 /* TABLETS & DESKTOP */
 @media only screen and (min-width: 2000px) {
     
-    .about-me {
+.about-me {
      min-height: 1400px;
      position: relative;
      background-image: url("../images/coffee.jpg");
@@ -352,6 +352,94 @@ img {
      background-position: center top;
      background-size: cover;
 }
+    
+.aboutme h2 {
+      font-size: 1.5rem;
+      padding-left: 9rem;
+      text-align: center;
+      display: inline-block;
+      pading-top: 3rem;
+}
+    
+.aboutme p {
+     line-height: 1.5rem;
+     font-size: 16px;
+     text-align: left;
+     display: inline-block;
+     color: white;
+     width: 500px;
+     padding-left: 0.5rem;
+     padding-right: 0.5rem;
+}
+.hero {
+    position: relative;
+    height: 2000px;
+    background-image: url("../images/herrro.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.hero h1 {
+    text-align: center;
+    padding-top: 10rem;
+    padding-left: 20rem;
+    padding-right: 20rem;
+    position: relative;
+    font-size: 80px;
+    display: grid;
+    color: #425657;
+    font-weight: 600;
+}
+
+.hero h2 {
+    text-align: center;
+    padding-left: 20rem;
+    padding-right: 20rem;
+    font-size: 30px;
+    color: #929292;
+    margin-bottom: 80px;
+    line-height: 2.2rem;  
+    font-weight: 400;
+}
+
+.btn {
+  margin: auto;
+  background-color:#F15C56;
+  padding: 18px 45px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  border-radius: 30px;
+  border: 1px solid #F15C56;
+  -webkit-transition: .5s;
+  transition: .5s;
+  display: table;
+  cursor: pointer;
+  width:20%;
+  color:#FFF;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Raleway';
+  margin-bottom: 14rem;
+}
+    
+.concontainer {
+    margin: 0 auto;
+    width: 100%;
+    min-height: 60rem;
+    background-color: #FFF;
+}
+    
+.concontainer h2 {
+  text-align:left;
+  font-size: 1.7em;
+  line-height: 2em;
+  padding-top: 5em;
+  color: #4A4A4A;
+}
+    
 }
 
 @media only screen and (max-width: 2000px) {
@@ -364,40 +452,84 @@ img {
   padding-left: 1.5em;
 }
     
-    .box {
-     width: 350px;
-     height: 350px;
-    }
-    .point .point-title {
-     font-size: 2rem;
-     color: #4A4A4A;
-     text-align: center;
-     font-weight: normal;
- }
-
-    .point .point-description {
-     font-size: 1rem;
-     color: #4A4A4A;
-     text-align: center;
-     font-weight: lighter;
-     padding-bottom: 1rem;
+.aboutme h2 {
+      font-size: 1.5rem;
+      padding-left: 9rem;
+      text-align: center;
+      display: inline-block;
+      pading-top: 3rem;
 }
     
-     .gesha {
-     width: 350px;
-     height: 350px;
-     background-position: center bottom;
+.aboutme p {
+     line-height: 1.5rem;
+     font-size: 16px;
+     text-align: left;
+     display: inline-block;
+     color: white;
+     width: 500px;
+     padding-left: 0.5rem;
+     padding-right: 0.5rem;
 }
 
-    .truvay {
-     width: 350px;
-     height: 350px;
+.hero {
+    position: relative;
+    height: 1500px;
+    background-image: url("../images/herrro.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    background-position: center;
+    background-attachment: fixed;
 }
 
-    .notebox {
-     width: 350px;
-     height: 350px;
-     background-position: center bottom;
+.hero h1 {
+    text-align: center;
+    padding-top: 10rem;
+    padding-left: 20rem;
+    padding-right: 20rem;
+    position: relative;
+    font-size: 80px;
+    display: grid;
+    color: #425657;
+    font-weight: 600;
+}
+
+.hero h2 {
+    text-align: center;
+    padding-left: 20rem;
+    padding-right: 20rem;
+    font-size: 30px;
+    color: #929292;
+    margin-bottom: 80px;
+    line-height: 2.2rem;  
+    font-weight: 400;
+}
+
+.btn {
+  margin: auto;
+  background-color:#F15C56;
+  padding: 18px 45px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  border-radius: 30px;
+  border: 1px solid #F15C56;
+  -webkit-transition: .5s;
+  transition: .5s;
+  display: table;
+  cursor: pointer;
+  width:20%;
+  color:#FFF;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Raleway';
+  margin-bottom: 14rem;
+}
+    
+.concontainer {
+    margin: 0 auto;
+    width: 100%;
+    min-height: 51rem;
+    background-color: #FFF;
 }
 }
 
@@ -454,58 +586,9 @@ img {
 }
     
     
-
-    
-    .box {
-     width: 400px;
-     height: 400px;
-    }
-    .point .point-title {
-     font-size: 3rem;
-     color: #4A4A4A;
-     text-align: center;
-     font-weight: normal;
- }
-
-    .point .point-description {
-     font-size: 1.25rem;
-     color: #4A4A4A;
-     text-align: center;
-     font-weight: lighter;
-     padding-bottom: 2rem;
-}
-    
-     .gesha {
-     width: 200px;
-     height: 200px;
-     background-position: center;
-}
-
-    .truvay {
-     width: 200px;
-     height: 200px;
-     background-position: center;
-
-}
-
-    .notebox {
-     width: 200px;
-     height: 200px;
-     background-position: center;
-}
-}
-
-/* PHONES */
-@media only screen and (max-width: 767px) {
-.workbtn {
-  width: 90%;
-  font-size: 10px;
-}
-    
-    
 .hero h1 {
     text-align: center;
-    padding-top: 3rem;
+    padding-top: 5rem;
     padding-left: 2rem;
     padding-right: 2rem;
     position: relative;
@@ -522,6 +605,56 @@ img {
     font-size: 30px;
     color: #929292;
     margin-bottom: 100px;
+    line-height: 2.2rem;  
+    font-weight: 400;
+}
+ 
+.concontainer {
+    margin: 0 auto;
+    width: 100%;
+    min-height: 20rem;
+    background-color: #FFF;
+}
+}
+
+/* PHONES */
+@media only screen and (max-width: 767px) {
+.hero {
+    position: relative;
+    max-height: 600px;
+    background-image: url("../images/herrro.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    background-position: center;
+    background-attachment: fixed;
+}
+    
+.workbtn {
+  width: 90%;
+  font-size: 14px;
+}
+    
+    
+.hero h1 {
+    text-align: center;
+    padding-top: 10rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    position: relative;
+    font-size: 37px;
+    display: grid;
+    color: #425657;
+    font-weight: 600;
+}
+
+.hero h2 {
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 18px;
+    color: #929292;
+    margin-bottom: 30px;
     line-height: 2.2rem;  
     font-weight: 400;
 }
@@ -547,63 +680,66 @@ img {
   font-size: 14px;
 }
     
+.column.half {
+    width: 100%; 
+    display: inline-table;
     
+}
     
-.column.half {width: 50%; }
+.concontainer {
+    margin: 0 auto;
+    width: 100%;
+    min-height: 15rem;
+    background-color: #FFF;
+}
 
 .concontainer h2 {
   text-align:left;
-  font-size: 1.1em;
+  font-size: 1em;
   line-height: 2em;
   padding-top: 5em;
+  padding-bottom: 5em;
   color: #4A4A4A;
-  padding-left: 1em;
+  padding-left: 0.9em;
 }
-    .box {
-     width: 300px;
-     height: 300px;
+.box {
+     width: 250px;
+     height: 250px;
     }
-    .point .point-title {
-     font-size: 2rem;
+.point .point-title {
+     font-size: 1.5rem;
      color: #4A4A4A;
      text-align: center;
      font-weight: normal;
  }
-    .point .point-description {
+.point .point-description {
      font-size: 1rem;
      color: #4A4A4A;
      text-align: center;
      font-weight: lighter;
 }
-    .aboutme p {
-     line-height: 1.5rem;
-     font-size: 13px;
-     text-align: left;
-     display: inline-block;
-     color: white;
-     width: 250px;
-     padding-left: 1.5rem;
-     padding-right: 0.5rem;
-}
-    .gesha {
-     width: 25px;
-     height: 25px;
+
+.column.half.gesha {
+     width: 50%;
+     margin-left: 6.2rem;
      background-position: center;
 }
 
-    .truvay {
-     width: 200px;
-     height: 200px;
-     background-position: center;
+.column.half.truvay {
+     width: 90%;
+     margin-left: 1.3rem;
+     background-position: bottom; 
 }
 
-    .notebox {
-     width: 200px;
-     height: 200px;
+.column.half.notebox {
+     width: 90%;
+     margin-left: 1.3rem;
+     height: 50%;
      background-position: center;
 
 }
-    .navbar {
+
+.navbar {
      position: absolute;
      padding-left: 1rem;
      padding-right: 1rem;
@@ -616,13 +752,13 @@ img {
      height: 71px;
  }
 
-   .navbar .logo {
+.navbar .logo {
      padding-left: 0.5rem;
      padding-top: 0.25rem;
      padding-bottom: 2rem;
 }
 
-    .navbar .links-container {
+.navbar .links-container {
      display: table;
      position: absolute;
      top: 0;
@@ -632,7 +768,7 @@ img {
      text-decoration: none;
      padding-right: 0.1rem;
  }
-    .links-container .navbar-link {
+.links-container .navbar-link {
      display: table-cell;
      position: relative;
      height: 100%;
@@ -640,15 +776,15 @@ img {
      padding-right: 1rem;
      vertical-align: middle;
      color: #F15C56;
-     font-size: 0.75rem;
+     font-size: 0.8rem;
      letter-spacing: 0.05rem;
-     font-weight: 700;
+     font-weight: 600;
      text-transform: uppercase;
      text-decoration: none;
      cursor: pointer;
 }
     
-    .about-me {
+.about-me {
      position: relative;
      min-height: 400px;
      background-image: url("../images/coffee.jpg");
@@ -658,7 +794,7 @@ img {
      max-width: 100%;
 }
 
-     .about-me .about-title {
+.about-me .about-title {
       position: absolute;
       top: 20%;
       -webkit-transform: translateY(-50%);
@@ -674,9 +810,23 @@ img {
       line-height: 1rem;
       right: 1%;
 }
-     .aboutme h2 {
-      font-size: 1rem;
-      padding-left: 1.5rem;
+.aboutme h2 {
+     font-size: 24px;
+     font-weight: 900;
+     text-align: left;
+     display: inline-block;
+     color: white;
+     width: 350px;
+     margin-left: 0.4rem;
+}
+.aboutme p {
+     line-height: 1.5rem;
+     font-size: 15px;
+     text-align: left;
+     display: inline-block;
+     color: white;
+     width: 350px;
+     margin-left: 0.4rem;
 }
 }
 
