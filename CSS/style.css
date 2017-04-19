@@ -649,8 +649,8 @@ img {
     position: relative;
     max-height: 600px;
     background-image: url("../images/herrro.png");
-    background-repeat: repeat;
-    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
     overflow: hidden;
     background-position: center;
     background-attachment: fixed;
@@ -665,10 +665,10 @@ img {
 .hero h1 {
     text-align: center;
     padding-top: 8rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     position: relative;
-    font-size: 30px;
+    font-size: 32px;
     display: grid;
     color: #425657;
     font-weight: 600;
@@ -678,7 +678,7 @@ img {
     text-align: center;
     padding-left: 0.25rem;
     padding-right: 0.25rem;
-    font-size: 14px;
+    font-size: 22px;
     color: #929292;
     margin-bottom: 30px;
     line-height: 2rem;  
