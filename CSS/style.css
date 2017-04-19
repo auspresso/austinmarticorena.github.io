@@ -35,7 +35,7 @@ body {
 }
 
 
- .navbar {
+.navbar {
   position: absolute;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -139,6 +139,7 @@ body {
   font-family: 'Raleway';
   margin-bottom: 10rem;
 }
+
 .btn:hover, .btn:hover {
   background:#57BEB6;
   border-color: #57BEB6;
@@ -157,13 +158,14 @@ body {
   transition: .5s;
   display: table;
   cursor: pointer;
-  width:50%;
+  width:60%;
   color:#F15C56;
   text-decoration: none;
   text-align: center;
   font-family: 'Raleway';
   margin-bottom: 1rem;
 }
+
 .workbtn:hover, .workbtn:hover {
   background:#F15C56;
   border-color: #F15C56;
@@ -188,8 +190,6 @@ img {
     background-color: #F15C56;
 }
 
-
-
 .about-me .about-title {
      position: absolute;
      top: 20%;
@@ -213,6 +213,11 @@ img {
     max-width: 64rem;
 }
 
+ .wkcontainer {
+    margin: 0 auto;
+    max-width: 80rem;
+}
+
  .concontainer {
     margin: 0 auto;
     width: 100%;
@@ -222,26 +227,23 @@ img {
 
  /* WORK */
 
- 
  .point .point-title {
-     font-size: 3rem;
+     font-size: 4rem;
      color: #4A4A4A;
      text-align: center;
-     font-weight: normal;
+     font-weight: 500;
  }
 
-.point .point-description {
-    font-size: 1.5rem;
-    color: #4A4A4A;
-    text-align: center;
-    font-weight: 300;
-    margin-bottom: 4em;
-}
+ .point .point-title p {
+     font-size: 1.5rem;
+     color: #4A4A4A;
+     text-align: center;
+     font-weight: 100;
+ }
 
 .column {
-    float: left;
-        
-    }
+    float: left;        
+}
     
 .column.full {width: 100%; }
 .column.two-thirds {width: 66.7%; }
@@ -250,46 +252,70 @@ img {
 .column.custom {width: 40%; }
 .column.fourth {width: 25%; }
 .column.flow-opposite {float: right; }
+  
+.column.half.gesha {
+     width: 50%;
+}   
+    
+.column.half.truvay {
+     width: 50%;
+}
+
+.column.half.notebox {
+     width: 50%;
+}
 
 .box {
-    width: 500px;
-    height: 500px;
+    height: 400px;
+    width: 400px;
     text-align: center;
     -webkit-transition: .25s;
     transition: .25s;
     cursor: pointer;
-    }
+    margin-top: 8em;
+}
 
-  .box:hover, .box:hover {
+.box:hover, .box:hover {
     color: #F15C56;
     cursor: pointer;
-  }
+}
+
+.truvaybox {
+    height: 400px;
+    text-align: center;
+    -webkit-transition: .25s;
+    transition: .25s;
+    cursor: pointer;
+}
 
 .gesha {
      background-image: url("../images/gesha.png");
      background-repeat: no-repeat;
-     min-height: 500px;
+     height: 400px;
      background-size: contain;
      position: relative;
      background-position: center;
+     margin-top: 8em;
 }
 
 .truvay {
      background-image: url("../images/truvay.png");
      background-repeat: no-repeat;
-     min-height: 500px;
+     height: 400px;
      background-size: contain;
      position: relative;
-     background-position: center;
+     background-position: bottom;
+     
 }
 
 .notebox {
      background-image: url("../images/notebox.png");
      background-repeat: no-repeat;
-     min-height: 500px;
+     height: 400px;
      background-size: contain;
      position: relative;
      background-position: center;
+     margin-top: 8em;
 }
 
 .clearfix::before,
@@ -302,7 +328,7 @@ img {
    clear: both;
 }
 
-  /* ABOUT ME */
+/* ABOUT ME */
 
 .aboutme p {
     line-height: 1.5rem;
@@ -358,7 +384,7 @@ img {
       padding-left: 9rem;
       text-align: center;
       display: inline-block;
-      pading-top: 3rem;
+      padding-top: 3rem;
 }
     
 .aboutme p {
@@ -371,6 +397,7 @@ img {
      padding-left: 0.5rem;
      padding-right: 0.5rem;
 }
+
 .hero {
     position: relative;
     height: 2000px;
@@ -439,7 +466,6 @@ img {
   padding-top: 5em;
   color: #4A4A4A;
 }
-    
 }
 
 @media only screen and (max-width: 2000px) {
@@ -457,7 +483,7 @@ img {
       padding-left: 9rem;
       text-align: center;
       display: inline-block;
-      pading-top: 3rem;
+      padding-top: 1rem;
 }
     
 .aboutme p {
@@ -631,14 +657,14 @@ img {
 }
     
 .workbtn {
-  width: 90%;
+  width: 60%;
   font-size: 14px;
 }
     
     
 .hero h1 {
     text-align: center;
-    padding-top: 10rem;
+    padding-top: 8rem;
     padding-left: 2rem;
     padding-right: 2rem;
     position: relative;
@@ -681,9 +707,7 @@ img {
 }
     
 .column.half {
-    width: 100%; 
-    display: inline-table;
-    
+    width: 100%;     
 }
     
 .concontainer {
@@ -705,38 +729,56 @@ img {
 .box {
      width: 250px;
      height: 250px;
+     margin-top: 1em;
     }
+.truvaybox {
+     width: 250px;
+     height: 250px;
+}
+    
 .point .point-title {
      font-size: 1.5rem;
      color: #4A4A4A;
      text-align: center;
-     font-weight: normal;
+     font-weight: 500;
  }
-.point .point-description {
-     font-size: 1rem;
+    
+.point .point-title p {
+     font-size: 1.2rem;
      color: #4A4A4A;
      text-align: center;
-     font-weight: lighter;
-}
-
+     font-weight: 100;
+ }
+    
 .column.half.gesha {
-     width: 50%;
-     margin-left: 6.2rem;
+     width: 100%;
      background-position: center;
 }
 
+.gesha {
+       height: 250px;
+       margin-top: 1em;
+}    
+    
 .column.half.truvay {
-     width: 90%;
-     margin-left: 1.3rem;
-     background-position: bottom; 
+     width: 100%;
+     background-position: center; 
 }
+
+.truvay {
+      height: 200px;
+      margin-top: 1em;
+    }
 
 .column.half.notebox {
-     width: 90%;
-     margin-left: 1.3rem;
-     height: 50%;
+     width: 100%;
      background-position: center;
 
+}
+
+.notebox {
+    height: 250px;
+    margin-top: 1em;
 }
 
 .navbar {
