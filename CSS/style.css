@@ -676,12 +676,12 @@ img {
 
 .hero h2 {
     text-align: center;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    font-size: 18px;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    font-size: 14px;
     color: #929292;
     margin-bottom: 30px;
-    line-height: 2.2rem;  
+    line-height: 2rem;  
     font-weight: 400;
 }
 
@@ -697,13 +697,13 @@ img {
   transition: .5s;
   display: table;
   cursor: pointer;
-  width:60%;
+  width:70%;
   color:#FFF;
   text-decoration: none;
   text-align: center;
   font-family: 'Raleway';
   margin-bottom: 10rem;
-  font-size: 14px;
+  font-size: 16px;
 }
     
 .column.half {
