@@ -650,7 +650,7 @@ img {
     max-height: 600px;
     background-image: url("../images/herrro.png");
     background-repeat: repeat;
-    background-size: cover;
+    background-size: contain;
     overflow: hidden;
     background-position: center;
     background-attachment: fixed;
