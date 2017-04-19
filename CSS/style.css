@@ -649,8 +649,8 @@ img {
     position: relative;
     max-height: 600px;
     background-image: url("../images/herrro.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat;
+    background-size: contain;
     overflow: hidden;
     background-position: center;
     background-attachment: fixed;
@@ -668,7 +668,7 @@ img {
     padding-left: 2rem;
     padding-right: 2rem;
     position: relative;
-    font-size: 37px;
+    font-size: 30px;
     display: grid;
     color: #425657;
     font-weight: 600;
