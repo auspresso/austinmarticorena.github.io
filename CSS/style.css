@@ -106,7 +106,7 @@ body {
     position: relative;
     font-size: 80px;
     display: grid;
-    color: #262A56;
+    color: #0C3E3A;
     font-weight: 600;
     font-family: 'Comfortaa';
 }
@@ -116,7 +116,7 @@ body {
     padding-left: 20rem;
     padding-right: 20rem;
     font-size: 30px;
-    color: #262A56;
+    color: #0C3E3A;
     margin-bottom: 100px;
     line-height: 2.2rem;  
     font-weight: 400;
@@ -124,18 +124,18 @@ body {
 
 .btn {
   margin: auto;
-  background-color:#262A56;
+  background-color:#fff;
   padding: 18px 45px;
   -ms-border-radius: 30px;
   -o-border-radius: 30px;
   border-radius: 30px;
-  border: 1px solid #262A56;
+  border: 1px solid #fff;
   -webkit-transition: .5s;
   transition: .5s;
   display: table;
   cursor: pointer;
   width:20%;
-  color:#FFF;
+  color:#0C3E3A;
   text-decoration: none;
   text-align: center;
   font-family: 'Avenir';
@@ -144,24 +144,24 @@ body {
 
 .btn:hover, .btn:hover {
   background:#FFF;
-  border-color: #262A56;
-  color:#262A56;
+  border-color: #FFF;
+  color:#0C3E3A;
 }
 
 .workbtn {
   margin: auto;
-  background-color:#FFF;
+  background-color:#EAA597;
   padding: 18px 45px;
   -ms-border-radius: 30px;
   -o-border-radius: 30px;
   border-radius: 30px;
-  border: 1px solid #F15C56;
+  border: 1px solid #EAA597;
   -webkit-transition: .5s;
   transition: .5s;
   display: table;
   cursor: pointer;
   width:60%;
-  color:#F15C56;
+  color:#FFF;
   text-decoration: none;
   text-align: center;
   font-family: 'Avenir';
@@ -169,9 +169,9 @@ body {
 }
 
 .workbtn:hover, .workbtn:hover {
-  background:#F15C56;
-  border-color: #F15C56;
-  color:#FFF;
+  background:#FFF;
+  border-color: #FFF;
+  color:#EAA597;
 }
 
 img {
@@ -436,18 +436,18 @@ img {
 
 .btn {
   margin: auto;
-  background-color:#FFF;
+  background-color:#0C3E3A;
   padding: 18px 45px;
   -ms-border-radius: 30px;
   -o-border-radius: 30px;
   border-radius: 30px;
-  border: 1px solid #FFF;
+  border: 1px solid #0C3E3A;
   -webkit-transition: .5s;
   transition: .5s;
   display: table;
   cursor: pointer;
   width:20%;
-  color:#F15C56;
+  color:#FFF;
   text-decoration: none;
   text-align: center;
   font-family: 'Avenir';
@@ -535,18 +535,18 @@ img {
 
 .btn {
   margin: auto;
-  background-color:#FFF;
+  background-color:#0C3E3A;
   padding: 18px 45px;
   -ms-border-radius: 30px;
   -o-border-radius: 30px;
   border-radius: 30px;
-  border: 1px solid #FFF;
+  border: 1px solid #0C3E3A;
   -webkit-transition: .5s;
   transition: .5s;
   display: table;
   cursor: pointer;
   width:20%;
-  color:#F15C56;
+  color:#FFF;
   text-decoration: none;
   text-align: center;
   font-family: 'Avenir';
@@ -564,18 +564,18 @@ img {
 @media only screen and (max-width: 1020px) {
 .btn {
   margin: auto;
-  background-color:#FFF;
+  background-color:#0C3E3A;
   padding: 18px 45px;
   -ms-border-radius: 30px;
   -o-border-radius: 30px;
   border-radius: 30px;
-  border: 1px solid #FFF;
+  border: 1px solid #0C3E3A;
   -webkit-transition: .5s;
   transition: .5s;
   display: table;
   cursor: pointer;
   width:40%;
-  color:#F15C56;
+  color:#FFF;
   text-decoration: none;
   text-align: center;
   font-family: 'Avenir';
@@ -689,18 +689,18 @@ img {
 
 .btn {
   margin: auto;
-  background-color:#FFF;
+  background-color:#0C3E3A;
   padding: 18px 45px;
   -ms-border-radius: 30px;
   -o-border-radius: 30px;
   border-radius: 30px;
-  border: 1px solid #FFF;
+  border: 1px solid #0C3E3A;
   -webkit-transition: .5s;
   transition: .5s;
   display: table;
   cursor: pointer;
   width:70%;
-  color:#F15C56;
+  color:#FFF;
   text-decoration: none;
   text-align: center;
   font-family: 'Avenir';
