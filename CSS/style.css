@@ -681,7 +681,7 @@ img {
     padding-left: 0.25rem;
     padding-right: 0.25rem;
     font-size: 22px;
-    color: #929292;
+    color: #425657;
     margin-bottom: 30px;
     line-height: 2rem;  
     font-weight: 400;
@@ -689,18 +689,18 @@ img {
 
 .btn {
   margin: auto;
-  background-color:#F15C56;
+  background-color:#FFF;
   padding: 18px 45px;
   -ms-border-radius: 30px;
   -o-border-radius: 30px;
   border-radius: 30px;
-  border: 1px solid #F15C56;
+  border: 1px solid #FFF;
   -webkit-transition: .5s;
   transition: .5s;
   display: table;
   cursor: pointer;
   width:70%;
-  color:#FFF;
+  color:#F15C56;
   text-decoration: none;
   text-align: center;
   font-family: 'Raleway';
