@@ -436,18 +436,18 @@ img {
 
 .btn {
   margin: auto;
-  background-color:#F15C56;
+  background-color:#FFF;
   padding: 18px 45px;
   -ms-border-radius: 30px;
   -o-border-radius: 30px;
   border-radius: 30px;
-  border: 1px solid #F15C56;
+  border: 1px solid #FFF;
   -webkit-transition: .5s;
   transition: .5s;
   display: table;
   cursor: pointer;
   width:20%;
-  color:#FFF;
+  color:#F15C56;
   text-decoration: none;
   text-align: center;
   font-family: 'Raleway';
