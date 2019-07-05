@@ -651,7 +651,7 @@ img {
     position: relative;
     max-height: 550px;
     background-image: url("../images/herrro.png");
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-size: contain;
     overflow: hidden;
     background-position: center;
