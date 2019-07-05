@@ -72,7 +72,7 @@ body {
     padding-left: 2rem;
     padding-right: 2rem;
     vertical-align: middle;
-    color: #F15C56;
+    color: #0C3E3A;
     font-size: 0.9rem;
     letter-spacing: 0.05rem;
     font-weight: 600;
@@ -83,7 +83,7 @@ body {
 }
 
 .links-container .navbar-link:hover {
-    color: #1D5A53;
+    color: #2C8178;
     
 }
 
@@ -808,7 +808,7 @@ img {
      top: 0;
      right: 0;
      height: 70px;
-     color: #F15C56;
+     color: #0C3E3A;
      text-decoration: none;
      padding-right: 0.1rem;
  }
@@ -819,7 +819,7 @@ img {
      padding-left: 1rem;
      padding-right: 1rem;
      vertical-align: middle;
-     color: #F15C56;
+     color: #0C3E3A;
      font-size: 0.8rem;
      letter-spacing: 0.05rem;
      font-weight: 600;
