@@ -354,13 +354,22 @@ img {
     text-align: left;
     display: inline-block;
     color: #FFFFFF;
-    width: 1000px;
+}
+
+.aboutme img {
+  padding-bottom: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .aboutme h2 {
    color:#FFFFFF;
-   text-align: right;
+   text-align: center;
    display: block;
+   font-family: 'Comfortaa';
+   margin-left: auto;
+   margin-right: auto;
 }
 
  /* CONTACT */
@@ -410,7 +419,6 @@ img {
      text-align: left;
      display: inline-block;
      color: #FFFFFF;
-     width: 1000px;
      padding-left: 0.5rem;
      padding-right: 0.5rem;
 }
@@ -508,7 +516,6 @@ img {
      text-align: left;
      display: inline-block;
      color: #FFFFFF;
-     width: 1000px;
      padding-left: 0.5rem;
      padding-right: 0.5rem;
 }
@@ -788,11 +795,8 @@ img {
 .aboutme h2 {
      font-size: 24px;
      font-weight: 900;
-     text-align: left;
      display: block;
      color: #FFFFFF;
-     width: 350px;
-     margin-left: 0.4rem;
 }
 .aboutme p {
      line-height: 1.5rem;
@@ -800,9 +804,247 @@ img {
      text-align: left;
      display: inline-block;
      color: white;
-     max-width: 475px;
      padding-left: 0.9em;
+     padidng-right: 0.9em;
 }
+}
+
+/* real phone widths */
+@media only screen and (max-width: 500px) {
+  .hero {
+      position: relative;
+      max-height: 550px;
+      background-image: url("../images/herrro.png");
+      background-repeat: no-repeat;
+      background-size: 960px;
+      overflow: hidden;
+      background-position: top;
+      background-attachment: fixed;
+  }
+
+  .workbtn {
+    width: 0%;
+    font-size: 14px;
+  }
+
+
+  .hero h1 {
+      text-align: center;
+      padding-top: 8rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      position: relative;
+      font-size: 30px;
+      display: grid;
+      color: #0C3E3A;
+      font-weight: 600;
+  }
+
+  .hero h2 {
+      text-align: center;
+      padding-left: 0.25rem;
+      padding-right: 0.25rem;
+      font-size: 16px;
+      color: #0C3E3A;
+      margin-bottom: 30px;
+      line-height: 2rem;
+      font-weight: 400;
+  }
+
+  .btn {
+    margin: auto;
+    background-color:#32484D;
+    padding: 18px 45px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    border-radius: 30px;
+    border: 1px solid #32484D;
+    -webkit-transition: .5s;
+    transition: .5s;
+    display: table;
+    cursor: pointer;
+    width: 0%;
+    color:#FFFFFF;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Avenir';
+    margin-bottom: 10rem;
+    font-size: 16px;
+  }
+
+
+  .column.half {
+      width: 100%;
+  }
+
+  .concontainer {
+      margin: 0 auto;
+      width: 100%;
+      min-height: 15rem;
+      background-color: #FFF;
+  }
+
+  .concontainer h2 {
+    text-align:left;
+    font-size: 1em;
+    line-height: 2em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    color: #0C3E3A;
+    padding-left: 0.9em;
+  }
+  .box {
+       width: 250px;
+       height: 250px;
+       margin-top: 1em;
+      }
+  .truvaybox {
+       width: 250px;
+       height: 250px;
+  }
+
+  .point .point-title {
+       font-size: 1.5rem;
+       color: #4A4A4A;
+       text-align: center;
+       font-weight: 500;
+   }
+
+  .point .point-title p {
+       font-size: 1.2rem;
+       color: #4A4A4A;
+       text-align: center;
+       font-weight: 100;
+   }
+
+  .column.half.gesha {
+       width: 100%;
+       background-position: center;
+  }
+
+  .gesha {
+         height: 250px;
+         margin-top: 1em;
+  }
+
+  .column.half.truvay {
+       width: 100%;
+       background-position: center;
+  }
+
+  .truvay {
+        height: 200px;
+        margin-top: 1em;
+      }
+
+  .column.half.notebox {
+       width: 100%;
+       background-position: center;
+
+  }
+
+  .notebox {
+      height: 250px;
+      margin-top: 1em;
+  }
+
+  .navbar {
+       position: absolute;
+       padding-left: 1rem;
+       padding-right: 1rem;
+       padding-top: 0.25rem;
+       padding-bottom: 0.25rem;
+       z-index: 1;
+       top: 0;
+       width: 100%;
+       overflow: hidden;
+       height: 71px;
+   }
+
+  .navbar .logo {
+       padding-left: 0.5rem;
+       padding-top: 0.25rem;
+       padding-bottom: 2rem;
+  }
+
+  .navbar .links-container {
+       display: table;
+       position: absolute;
+       top: 0;
+       right: 0;
+       height: 70px;
+       color: #0C3E3A;
+       text-decoration: none;
+       padding-right: 0.1rem;
+   }
+  .links-container .navbar-link {
+       display: table-cell;
+       position: relative;
+       height: 100%;
+       padding-left: 1rem;
+       padding-right: 1rem;
+       vertical-align: middle;
+       color: #32484D;
+       font-size: 0.8rem;
+       letter-spacing: 0.05rem;
+       font-weight: 600;
+       text-transform: uppercase;
+       text-decoration: none;
+       cursor: pointer;
+  }
+
+  .about-me img {
+    padding-bottom: 40px;
+    padding-left: 0.9em;
+    padding-left: 0.9em;
+  }
+
+  .about-me .about-title {
+        position: absolute;
+        top: 20%;
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        transform: translateY(-50%);
+        width: 100%;
+        text-align: right;
+        font-size: 1rem;
+        font-weight: 250;
+        text-transform: uppercase;
+        letter-spacing: 0.25rem;
+        color: #0C3E3A;
+        line-height: 1rem;
+        right: 1%;
+  }
+  .aboutme h2 {
+       font-size: 24px;
+       font-weight: 900;
+  }
+  .aboutme p {
+       line-height: 1.5rem;
+       font-size: 15px;
+       text-align: left;
+       display: block;
+       color: #FFFFFF;
+       margin-left: auto;
+       margin-right: auto;
+       padding-left: 0.9em;
+       padding-right: 0.9em;
+  }
+
+  #myBtn {
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 16px;
+      z-index: 99;
+      border: none;
+      outline: none;
+      background-color: #32484D;
+      color: white;
+      cursor: pointer;
+      padding: 15px;
+      border-radius: 30px;
+  }
 }
 
 /* FOOTER */
