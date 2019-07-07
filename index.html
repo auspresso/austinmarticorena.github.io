@@ -19,8 +19,8 @@
 <link rel="stylesheet" type="text/css" href="CSS/font-awesome.css">
 </head>
 <body>
-    
-<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
 
 
 <!-- NAVIGATION -->
@@ -47,26 +47,25 @@
 </section>
 
 
-    
+
 <!-- Work -->
-<form id="work">
-<section class="spcontainer clearfix">
+<form id=" work">
+<section class="worksection">
 <br>
-    
 <div class="notebox point column half"></div>
 
 <div class="box point column half">
 <h5 class="point-title"> SR Huddle <br> <p>research + design</p></h5>
-<a class="workbtn" href="notebox.html">View Case Study</a>
+<a class="workbtn" href="https://drive.google.com/file/d/17Yc1hRWVQBA8d-TwmGwspJy1jJ_8A5kH/view" target="_blank">View Case Study</a>
 </div>
 
 <div class=" truvay point column half"></div>
-    
+
 <div class="truvaybox point column half ">
 <h5 class="point-title"> Truvay <br> <p>design + development + branding</p></h5>
 <a class="workbtn" href="truvay.html">View Case Study</a>
-</div> 
-    
+</div>
+
 <div class="gesha point column half"></div>
 
 <div class="box point column half">
@@ -82,36 +81,36 @@
 
 <!-- ABOUT ME  -->
 <form id="about">
-    
+
 <!-- ABOUT ME COPY -->
 <section class="aboutme">
 <div class="container">
 <br/>
-<div class="column half">
-<h2 class="about-logo"> A Little Narrative</h2>
+<div class="column full">
+<img src= "images/coffee.png">
 </div>
 <br/>
-<p>My creative journey began when I was just two years old. My father gave me a plastic tool kit as a birthday gift. Upon coming home one day, he  discovered that I have driven a nail into the staircase with my plastic hammer.  At that moment, he knew I was going to have an interesting future. Those creative juices led me into the realm of music. At the age of 15, I dropped out of high school and became a full-time touring musician signed with an indie label with the band, Chelsea Grin. 
-<br/><br/> 
+<h2 class="about-logo"> A Little Narrative</h2>
+<p>My creative journey began when I was just two years old. My father gave me a plastic tool kit as a birthday gift. Upon coming home one day, he  discovered that I have driven a nail into the staircase with my plastic hammer.  At that moment, he knew I was going to have an interesting future. Those creative juices led me into the realm of music. At the age of 15, I dropped out of high school and became a full-time touring musician signed with an indie label with the band, Chelsea Grin.
+<br/><br/>
 After two years of the rockstar life, I decided college was the next step, finishing my high school diploma in three months, I started school in fall 2010 and eventually graduated Cum Laude with a degree in Economics.
-<br/><br/> 
+<br/><br/>
 Throughout my college career, I started a string of companies ranging from a record label, band management firm, to a specialty coffee roaster. Each venture was a balance of creativity and analytical challenges that kept life interesting.
-<br/><br/> 
+<br/><br/>
 Post college, I decided to give the world of technology a try and accepted a position with Qualtrics. My position was extremely analytical and fun, but lacked the creative juju that I needed to keep the spice in life. After about a year, I stumbled upon the world of UX Design and was hooked. It seemed to be that delicate balance of creative and analytical challenges that I was missing.
-<br/><br/> 
-After a 9-month bootcamp at Bloc learning the fundamentals of design and front-end web development, I landed an internship at Solutionreach where I quickly found my feet and moved from making small UI adjustment to owning designing four out of five major product lines which included the launch of three new products in less than a year. 
-<br/><br/> 
+<br/><br/>
+After a 9-month bootcamp at Bloc learning the fundamentals of design and front-end web development, I landed an internship at Solutionreach where I quickly found my feet and moved from making small UI adjustment to owning designing four out of five major product lines which included the launch of three new products in less than a year.
+<br/><br/>
 In 2018, I made the move from Salt Lake City to Los Angeles and starting the LA chapter of Product Hive, a meetup group focused on continuous learning within product management and product design as well as working as a Product Designer at ChowNow.
 <br/>
 <br>
-<img src= "images/coffee.jpg">
 <br>
 </p>
 </div>
 </section>
 </form>
-    
-    
+
+
 <!-- Contact Form -->
 
 <form id="contact">
@@ -129,17 +128,17 @@ austinmarticorena@gmail.com
 <br>
 <br>
 <br>
-You can find various design projects of mine on <a class="linked" style="text-decoration:none; " href= "https://dribbble.com/dapperyounglad">Dribbble</a>, 
+You can find various design projects of mine on <a class="linked" style="text-decoration:none; " href= "https://dribbble.com/dapperyounglad">Dribbble</a>,
 <br>
-my professional alter ego on <a class="linked" style="text-decoration:none; " href= "https://www.linkedin.com/in/austinmarticorena">LinkedIn</a>, 
-<br>    
+my professional alter ego on <a class="linked" style="text-decoration:none; " href= "https://www.linkedin.com/in/austinmarticorena">LinkedIn</a>,
+<br>
 and my inner nerd on <a class="linked" style="text-decoration:none; " href= "https://github.com/auspresso">GitHub</a>.
 </h2>
     </section>
 </section>
 </form>
- 
-    
+
+
  <!-- Footer -->
 <footer>
 <ul class="footcontainer">
@@ -148,6 +147,24 @@ and my inner nerd on <a class="linked" style="text-decoration:none; " href= "htt
 </footer>
 
 <script src="my.js"></script>
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 100000 || document.documentElement.scrollTop > 1000) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -158,10 +175,9 @@ and my inner nerd on <a class="linked" style="text-decoration:none; " href= "htt
   ga('create', 'UA-93858240-1', 'auto');
   ga('send', 'pageview');
 
-</script>	
+</script>
 
 </body>
 
 
 </html>
-
