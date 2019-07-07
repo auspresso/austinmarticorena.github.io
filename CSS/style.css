@@ -501,6 +501,7 @@ img {
   padding-top: 5em;
   color: #0C3E3A;
   padding-left: 1.5em;
+  padding-right: 1.5em;
 }
 
 .aboutme h2 {
@@ -670,6 +671,7 @@ img {
   padding-bottom: 5em;
   color: #0C3E3A;
   padding-left: 0.9em;
+  padding-right: 0.9em;
 }
 .box {
      width: 250px;
@@ -892,6 +894,7 @@ img {
     padding-bottom: 5em;
     color: #0C3E3A;
     padding-left: 0.9em;
+    padding-right: 0.9em;
   }
   .box {
        width: 250px;
