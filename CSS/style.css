@@ -16,22 +16,22 @@ body {
 }
 
 #myBtn {
-    display: none; 
-    position: fixed; 
+    display: none;
+    position: fixed;
     bottom: 20px;
     right: 30px;
     z-index: 99;
     border: none;
     outline: none;
-    background-color: red;
+    background-color: #32484D;
     color: white;
     cursor: pointer;
     padding: 15px;
-    border-radius: 10px;
+    border-radius: 30px;
 }
 
 #myBtn:hover {
-    background-color: #555;
+    background-color: #0C3E3A;
 }
 
 
@@ -60,7 +60,7 @@ body {
   top: 0;
   right: 0;
   height: 70px;
-  color: #0C3E3A;
+  color: #32484D;
   text-decoration: none;
   padding-right: 2rem;
  }
@@ -72,7 +72,7 @@ body {
     padding-left: 2rem;
     padding-right: 2rem;
     vertical-align: middle;
-    color: #0C3E3A;
+    color: #32484D;
     font-size: 0.9rem;
     letter-spacing: 0.05rem;
     font-weight: 600;
@@ -83,8 +83,8 @@ body {
 }
 
 .links-container .navbar-link:hover {
-    color: #2C8178;
-    
+    color: #FFFFFF;
+
 }
 
 .hero {
@@ -115,27 +115,27 @@ body {
     text-align: center;
     padding-left: 20rem;
     padding-right: 20rem;
-    font-size: 30px;
+    font-size: 24px;
     color: #0C3E3A;
     margin-bottom: 100px;
-    line-height: 2.2rem;  
+    line-height: 2.2rem;
     font-weight: 400;
 }
 
 .btn {
   margin: auto;
-  background-color:#fff;
+  background-color:#32484D;
   padding: 18px 45px;
   -ms-border-radius: 30px;
   -o-border-radius: 30px;
   border-radius: 30px;
-  border: 1px solid #fff;
+  border: 1px solid #32484D;
   -webkit-transition: .5s;
   transition: .5s;
   display: table;
   cursor: pointer;
   width:20%;
-  color:#0C3E3A;
+  color:#FFFFFF;
   text-decoration: none;
   text-align: center;
   font-family: 'Avenir';
@@ -145,33 +145,33 @@ body {
 .btn:hover, .btn:hover {
   background:#0C3E3A;
   border-color: #0C3E3A;
-  color:#FFF;
+  color:#FFFFFF;
 }
 
 .workbtn {
   margin: auto;
-  background-color:#EAA597;
+  background-color:#EAB197;
   padding: 18px 45px;
   -ms-border-radius: 30px;
   -o-border-radius: 30px;
   border-radius: 30px;
-  border: 1px solid #EAA597;
+  border: 1px solid #EAB197;
   -webkit-transition: .5s;
   transition: .5s;
   display: table;
   cursor: pointer;
   width:60%;
-  color:#FFF;
+  color:#FFFFFF;
   text-decoration: none;
   text-align: center;
   font-family: 'Avenir';
-  margin-bottom: 1rem;
+  font-weight: 600;
 }
 
 .workbtn:hover, .workbtn:hover {
-  background:#FFF;
-  border-color: #FFF;
-  color:#EAA597;
+  background:#C7897D;
+  border-color: #C7897D;
+  color:#FFFFFF;
 }
 
 img {
@@ -183,13 +183,13 @@ img {
 
 .aboutme img {
     max-width: 100%;
-    width: 500px;
+    width: 250px;
     vertical-align: right;
     border: 0;
 }
 
 .aboutme {
-    background-color: #F15C56;
+    background-color: #EAB197;
 }
 
 .about-me .about-title {
@@ -204,9 +204,21 @@ img {
      font-weight: 250;
      text-transform: uppercase;
      letter-spacing: 0.25rem;
-     color: white;
+     color: #0C3E3A;
      line-height: 2rem;
      right: 1%;
+}
+
+.worksection {
+  margin: 0 auto;
+  max-width: 64rem;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  background-position: center;
+  background-attachment: fixed;
+
 }
 
  /* GRID */
@@ -231,22 +243,26 @@ img {
 
  .point .point-title {
      font-size: 4rem;
-     color: #4A4A4A;
+     color: #0C3E3A;
      text-align: center;
      font-weight: 500;
+     margin-bottom: 0.5em;
+     font-family: 'Comfortaa';
  }
 
  .point .point-title p {
      font-size: 1.5rem;
-     color: #4A4A4A;
+     color: #2C8178;
      text-align: center;
      font-weight: 100;
+     margin-bottom: 0.5em;
+     font-family: 'Avenir';
  }
 
 .column {
-    float: left;        
+    float: left;
 }
-    
+
 .column.full {width: 100%; }
 .column.two-thirds {width: 66.7%; }
 .column.half {width: 50%; }
@@ -254,11 +270,11 @@ img {
 .column.custom {width: 40%; }
 .column.fourth {width: 25%; }
 .column.flow-opposite {float: right; }
-  
+
 .column.half.gesha {
      width: 50%;
-}   
-    
+}
+
 .column.half.truvay {
      width: 50%;
 }
@@ -274,7 +290,7 @@ img {
     -webkit-transition: .25s;
     transition: .25s;
     cursor: pointer;
-    margin-top: 8em;
+    margin-top: 4em;
 }
 
 .box:hover, .box:hover {
@@ -307,7 +323,7 @@ img {
      background-size: contain;
      position: relative;
      background-position: bottom;
-     
+
 }
 
 .notebox {
@@ -315,9 +331,9 @@ img {
      background-repeat: no-repeat;
      height: 400px;
      background-size: contain;
-     position: relative;
+     position: center;
      background-position: center;
-     margin-top: 8em;
+     margin-top: 4em;
 }
 
 .clearfix::before,
@@ -337,14 +353,14 @@ img {
     font-size: 14px;
     text-align: left;
     display: inline-block;
-    color: #FFF;
-    width: 500px;
+    color: #FFFFFF;
+    width: 1000px;
 }
 
 .aboutme h2 {
-   color:#FFF; 
+   color:#FFFFFF;
    text-align: right;
-   display: inline-block;
+   display: block;
 }
 
  /* CONTACT */
@@ -363,7 +379,7 @@ img {
   font-size: 1.4em;
   line-height: 2em;
   padding-top: 5em;
-  color: #4A4A4A;
+  color: #0C3E3A;
 }
 
 /* MEDIA QUERIES */
@@ -371,38 +387,37 @@ img {
 
 /* TABLETS & DESKTOP */
 @media only screen and (min-width: 2000px) {
-    
+
 .about-me {
      min-height: 1400px;
      position: relative;
-     background-image: url("../images/coffee.jpg");
+     background-image: url("../images/coffee.png");
      background-repeat: no-repeat;
      background-position: center top;
      background-size: cover;
 }
-    
+
 .aboutme h2 {
       font-size: 1.5rem;
-      padding-left: 9rem;
       text-align: center;
-      display: inline-block;
+      display: block;
       padding-top: 3rem;
 }
-    
+
 .aboutme p {
      line-height: 1.5rem;
      font-size: 16px;
      text-align: left;
      display: inline-block;
-     color: white;
-     width: 500px;
+     color: #FFFFFF;
+     width: 1000px;
      padding-left: 0.5rem;
      padding-right: 0.5rem;
 }
 
 .hero {
     position: relative;
-    height: 2000px;
+    height: 960px;
     background-image: url("../images/herrro.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -427,46 +442,46 @@ img {
     text-align: center;
     padding-left: 20rem;
     padding-right: 20rem;
-    font-size: 30px;
+    font-size: 24px;
     color: #0C3E3A;
     margin-bottom: 80px;
-    line-height: 2.2rem;  
+    line-height: 2.2rem;
     font-weight: 400;
 }
 
 .btn {
   margin: auto;
-  background-color:#0C3E3A;
+  background-color:#32484D;
   padding: 18px 45px;
   -ms-border-radius: 30px;
   -o-border-radius: 30px;
   border-radius: 30px;
-  border: 1px solid #0C3E3A;
+  border: 1px solid #32484D;
   -webkit-transition: .5s;
   transition: .5s;
   display: table;
   cursor: pointer;
   width:20%;
-  color:#FFF;
+  color:#FFFFFF;
   text-decoration: none;
   text-align: center;
   font-family: 'Avenir';
   margin-bottom: 14rem;
 }
-    
+
 .concontainer {
     margin: 0 auto;
     width: 100%;
     min-height: 60rem;
     background-color: #FFF;
 }
-    
+
 .concontainer h2 {
   text-align:left;
   font-size: 1.7em;
   line-height: 2em;
   padding-top: 5em;
-  color: #4A4A4A;
+  color: #0C3E3A;
 }
 }
 
@@ -476,32 +491,31 @@ img {
   font-size: 1.5em;
   line-height: 2em;
   padding-top: 5em;
-  color: #4A4A4A;
+  color: #0C3E3A;
   padding-left: 1.5em;
 }
-    
+
 .aboutme h2 {
       font-size: 1.5rem;
-      padding-left: 9rem;
       text-align: center;
-      display: inline-block;
+      display: block;
       padding-top: 1rem;
 }
-    
+
 .aboutme p {
      line-height: 1.5rem;
      font-size: 16px;
      text-align: left;
      display: inline-block;
-     color: white;
-     width: 500px;
+     color: #FFFFFF;
+     width: 1000px;
      padding-left: 0.5rem;
      padding-right: 0.5rem;
 }
 
 .hero {
     position: relative;
-    height: 1500px;
+    height: 800px;
     background-image: url("../images/herrro.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -513,8 +527,8 @@ img {
 .hero h1 {
     text-align: center;
     padding-top: 10rem;
-    padding-left: 20rem;
-    padding-right: 20rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     position: relative;
     font-size: 80px;
     display: grid;
@@ -524,35 +538,36 @@ img {
 
 .hero h2 {
     text-align: center;
-    padding-left: 20rem;
-    padding-right: 20rem;
-    font-size: 30px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 24px;
     color: #0C3E3A;
     margin-bottom: 80px;
-    line-height: 2.2rem;  
+    line-height: 2.2rem;
     font-weight: 400;
 }
 
 .btn {
   margin: auto;
-  background-color:#0C3E3A;
+  background-color:#32484D;
   padding: 18px 45px;
   -ms-border-radius: 30px;
   -o-border-radius: 30px;
   border-radius: 30px;
-  border: 1px solid #0C3E3A;
+  border: 1px solid #32484D;
   -webkit-transition: .5s;
   transition: .5s;
   display: table;
   cursor: pointer;
-  width:20%;
-  color:#FFF;
+  width: 25%;
+  color:#FFFFFF;
   text-decoration: none;
   text-align: center;
   font-family: 'Avenir';
+  font-weight: 600;
   margin-bottom: 14rem;
 }
-    
+
 .concontainer {
     margin: 0 auto;
     width: 100%;
@@ -561,109 +576,26 @@ img {
 }
 }
 
-@media only screen and (max-width: 1020px) {
-.btn {
-  margin: auto;
-  background-color:#0C3E3A;
-  padding: 18px 45px;
-  -ms-border-radius: 30px;
-  -o-border-radius: 30px;
-  border-radius: 30px;
-  border: 1px solid #0C3E3A;
-  -webkit-transition: .5s;
-  transition: .5s;
-  display: table;
-  cursor: pointer;
-  width:40%;
-  color:#FFF;
-  text-decoration: none;
-  text-align: center;
-  font-family: 'Avenir';
-  margin-bottom: 10rem;
-  font-size: 16px;
-}   
-    
-.aboutme h2 {
-      font-size: 1.5rem;
-      padding-left: 2rem;
-}
-    
-.aboutme p {
-     line-height: 1.5rem;
-     font-size: 14px;
-     text-align: left;
-     display: inline-block;
-     color: white;
-     width: 250px;
-     padding-left: 2rem;
-     padding-right: 0.5rem;
-}
-    
-.concontainer h2 {
-  text-align:left;
-  font-size: 1.5em;
-  line-height: 2em;
-  padding-top: 5em;
-  color: #4A4A4A;
-  padding-left: 2em;
-}
-    
-.workbtn {
-  width: 60%;
-  font-size: 14px;
-}
-    
-    
-.hero h1 {
-    text-align: center;
-    padding-top: 5rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    position: relative;
-    font-size: 80px;
-    display: grid;
-    color: #0C3E3A;
-    font-weight: 600;
-}
-
-.hero h2 {
-    text-align: center;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    font-size: 30px;
-    color: #0C3E3A;
-    margin-bottom: 100px;
-    line-height: 2.2rem;  
-    font-weight: 400;
-}
- 
-.concontainer {
-    margin: 0 auto;
-    width: 100%;
-    min-height: 20rem;
-    background-color: #FFF;
-}
-}
 
 /* PHONES */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 960px) {
 .hero {
     position: relative;
     max-height: 550px;
     background-image: url("../images/herrro.png");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 960px;
     overflow: hidden;
-    background-position: center;
+    background-position: top;
     background-attachment: fixed;
 }
-    
+
 .workbtn {
   width: 60%;
   font-size: 14px;
 }
-    
-    
+
+
 .hero h1 {
     text-align: center;
     padding-top: 8rem;
@@ -683,35 +615,39 @@ img {
     font-size: 22px;
     color: #0C3E3A;
     margin-bottom: 30px;
-    line-height: 2rem;  
+    line-height: 2rem;
     font-weight: 400;
 }
 
 .btn {
   margin: auto;
-  background-color:#0C3E3A;
+  background-color:#32484D;
   padding: 18px 45px;
   -ms-border-radius: 30px;
   -o-border-radius: 30px;
   border-radius: 30px;
-  border: 1px solid #0C3E3A;
+  border: 1px solid #32484D;
   -webkit-transition: .5s;
   transition: .5s;
   display: table;
   cursor: pointer;
-  width:70%;
-  color:#FFF;
+  width: 40%;
+  color:#FFFFFF;
   text-decoration: none;
   text-align: center;
   font-family: 'Avenir';
   margin-bottom: 10rem;
   font-size: 16px;
 }
-    
-.column.half {
-    width: 100%;     
+
+.workbtn {
+  width: 40%;
 }
-    
+
+.column.half {
+    width: 100%;
+}
+
 .concontainer {
     margin: 0 auto;
     width: 100%;
@@ -725,7 +661,7 @@ img {
   line-height: 2em;
   padding-top: 5em;
   padding-bottom: 5em;
-  color: #4A4A4A;
+  color: #0C3E3A;
   padding-left: 0.9em;
 }
 .box {
@@ -737,21 +673,21 @@ img {
      width: 250px;
      height: 250px;
 }
-    
+
 .point .point-title {
      font-size: 1.5rem;
      color: #4A4A4A;
      text-align: center;
      font-weight: 500;
  }
-    
+
 .point .point-title p {
      font-size: 1.2rem;
      color: #4A4A4A;
      text-align: center;
      font-weight: 100;
  }
-    
+
 .column.half.gesha {
      width: 100%;
      background-position: center;
@@ -760,11 +696,11 @@ img {
 .gesha {
        height: 250px;
        margin-top: 1em;
-}    
-    
+}
+
 .column.half.truvay {
      width: 100%;
-     background-position: center; 
+     background-position: center;
 }
 
 .truvay {
@@ -819,7 +755,7 @@ img {
      padding-left: 1rem;
      padding-right: 1rem;
      vertical-align: middle;
-     color: #0C3E3A;
+     color: #32484D;
      font-size: 0.8rem;
      letter-spacing: 0.05rem;
      font-weight: 600;
@@ -827,15 +763,10 @@ img {
      text-decoration: none;
      cursor: pointer;
 }
-    
-.about-me {
-     position: relative;
-     min-height: 400px;
-     background-image: url("../images/coffee.jpg");
-     background-repeat: no-repeat;
-     background-position: center center;
-     background-size: cover;
-     max-width: 100%;
+
+.about-me img {
+  padding-bottom: 40px;
+  padding-left: 0.9em;
 }
 
 .about-me .about-title {
@@ -850,7 +781,7 @@ img {
       font-weight: 250;
       text-transform: uppercase;
       letter-spacing: 0.25rem;
-      color: white;
+      color: #0C3E3A;
       line-height: 1rem;
       right: 1%;
 }
@@ -858,8 +789,8 @@ img {
      font-size: 24px;
      font-weight: 900;
      text-align: left;
-     display: inline-block;
-     color: white;
+     display: block;
+     color: #FFFFFF;
      width: 350px;
      margin-left: 0.4rem;
 }
@@ -869,43 +800,12 @@ img {
      text-align: left;
      display: inline-block;
      color: white;
-     width: 350px;
-     margin-left: 0.4rem;
+     max-width: 475px;
+     padding-left: 0.9em;
 }
 }
 
-/* PORTRAIT PHONES */
-@media only screen and (max-width: 767px) and (orientation: portrait) {
-
-}
-
-@media (min-width: 768px) {
-   .container {
-     width: 750px;
-   }
- }
-
- @media (min-width: 992px) {
-   .container {
-     width: 970px;
-   }
-   .one-half {
-     width:46%;
-   }
-   .one-third {
-     width:29.33333%;
-   }
-   .one-fourth {
-     width:21%;
-   }
- }
-
- @media (min-width: 1200px) {
-   .container {
-       width: 1170px; }
- }
-
-/* FOOTER */ 
+/* FOOTER */
 footer {
     color: #FFFFFF;
     height: 75px;
@@ -921,12 +821,12 @@ footer {
 }
 
 a.linked {
-    color: #B3C9BD;
+    color: #EAB197;
     -webkit-transition: .5s;
     transition: .5s;
     cursor: pointer;
 }
 
 a.linked:hover, a.linked:hover {
-    color: #F15C56;
+    color: #C7897D;
 }
