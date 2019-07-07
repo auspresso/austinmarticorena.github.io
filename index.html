@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-<link rel="favicon" href="images/site-logo.png">
+<link rel="icon" data-emoji="👋" type="image/png">
 <title>Austin Marticorena | Product Designer</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=Edge">
@@ -163,6 +163,26 @@ function scrollFunction() {
 function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
+}
+</script>
+
+<script>
+const favicon = document.querySelector("link[rel=icon]");
+
+if (favicon) {
+  const emoji = favicon.getAttribute("data-emoji");
+
+  if (emoji) {
+    const canvas = document.createElement("canvas");
+    canvas.height = 64;
+    canvas.width = 64;
+
+    const ctx = canvas.getContext("2d");
+    ctx.font = "64px serif";
+    ctx.fillText(emoji, 0, 64);
+
+    favicon.href = canvas.toDataURL();
+  }
 }
 </script>
 
