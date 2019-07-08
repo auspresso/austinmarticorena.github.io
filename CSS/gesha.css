@@ -10,9 +10,53 @@ html {
 }
 
 body {
-    font-family: 'Raleway';
+    font-family: 'Avenir';
     color: white;
     min-height: 100%;
+}
+
+.back-to-top-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.back-to-top__button {
+  position: fixed;
+  bottom: 24px;
+  right: 2rem;
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.2s ease-in;
+}
+
+.back-to-top-container--intersecting .back-to-top__button {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.button {
+  -webkit-appearance: none;
+  background-color: #32484D;
+  display: inline-block;
+  padding: 1em 2em;
+  border-radius: 30px;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+  font-size: 600;
+  font-family: 'Avenir';
+  color: #FFFFFF;
+  z-index: 99;
+  border-color: #32484D;
+}
+
+.button:hover {
+  background-color: #0C3E3A;
+  border-color: #0C3E3A;
+  color: #FFFFFF;
 }
 
  .navbar {
@@ -40,7 +84,7 @@ body {
   top: 0;
   right: 0;
   height: 70px;
-  color: #F15C56;
+  color: #EAB197;
   text-decoration: none;
   padding-right: 2rem;
  }
@@ -52,19 +96,19 @@ body {
     padding-left: 2rem;
     padding-right: 2rem;
     vertical-align: middle;
-    color: #F15C56;
+    color: #EAB197;
     font-size: 0.9rem;
     letter-spacing: 0.05rem;
     font-weight: 600;
     text-transform: uppercase;
     text-decoration: none;
     cursor: pointer;
-    font-family: 'Comfortaa';
+    font-family: 'Avenir';
 }
 
 .links-container .navbar-link:hover {
-    color: #57BEB6;
-    
+    color: #C7897D;
+
 }
 
 .hero img {
@@ -230,39 +274,39 @@ body {
 }
 
 .header h1 {
-    color: #F15C56;
+    color: #EAB197;
     font-style: normal;
     font-size: 64px;
     font-weight: 300;
 }
 
 .header h2 {
-    color: #425657;
+    color: #EAB197;
     font-style: lighter;
     font-size: 24px;
     font-weight: 300;
-} 
+}
 
 
 .overview h1 {
-    color: #F15C56;
+    color: #EAB197;
     text-align: left;
     font-style: normal;
     font-size: 32px;
     font-weight: 300;
-    font-family: 'Comfortaa';
+    font-family: 'Avenir';
 }
 
 .overview h2 {
-    color: #57BEB6;
+    color: #EAB197;
     text-align: left;
     font-style: normal;
     font-size: 24px;
-    font-weight: 300; 
+    font-weight: 300;
 }
 
 .overview p {
-    color: #425657;
+    color: #4A4A4A;
     text-align: left;
     font-style: lighter;
     font-size: 16px;
@@ -324,13 +368,13 @@ body {
  .selling-points {
      position: relative;
  }
- 
+
  .point {
      position: relative;
      text-align: center;
      color: #F15C56;
  }
- 
+
  .point .point-title {
      font-size: 4rem;
      color: #FFFFFF;
@@ -347,9 +391,9 @@ body {
 
 .column {
     float: left;
-        
+
     }
-    
+
 .column.full {width: 100%; }
 .column.two-thirds {width: 66.7%; }
 .column.half {width: 50%; }
@@ -369,7 +413,7 @@ body {
 
   /* ABOUT ME */
  .aboutme h2, .aboutme p {
-   color:#4B5258;
+   color:#EAB197;
  }
 
  /* CONTACT */
@@ -493,7 +537,7 @@ body {
 .workbtn {
   font-size: 12px;
 }
-    
+
     .steve {
      min-height: 400px;
      background-image: url("../images/steve.gif");
@@ -638,7 +682,7 @@ body {
      background-size: contain;
      position: relative;
      width: 100%;
-} 
+}
 }
 }
 
@@ -648,7 +692,7 @@ body {
      background-image: url("../images/steve.gif");
      background-repeat: no-repeat;
      background-size: cover;
-     position: relative; 
+     position: relative;
 }
 }
 
@@ -659,7 +703,7 @@ body {
 .workbtn {
   font-size: 12px;
 }
-    
+
 .hero img {
     max-width: 100%;
     width: auto/9;
@@ -669,8 +713,8 @@ body {
     padding-right: 1em;
     padding-top: 5em;
 
-}    
-    
+}
+
 .navbar {
      position: absolute;
      padding-left: 1rem;
@@ -696,7 +740,7 @@ body {
      top: 0;
      right: 0;
      height: 70px;
-     color: #F15C56;
+     color: #EAB197;
      text-decoration: none;
      padding-right: 0.1rem;
  }
@@ -707,7 +751,7 @@ body {
      padding-left: 1rem;
      padding-right: 1rem;
      vertical-align: middle;
-     color: #F15C56;
+     color: #EAB197;
      font-size: 0.8rem;
      letter-spacing: 0.05rem;
      font-weight: 600;
@@ -716,7 +760,7 @@ body {
      cursor: pointer;
 }
     .overview p {
-     color: #425657;
+     color: #4A4A4A;
      text-align: left;
      font-style: lighter;
      font-size: 14px;
@@ -726,7 +770,7 @@ body {
      padding-right: 0.75rem;
 }
     .overview h1 {
-    color: #F15C56;
+    color: #EAB197;
     text-align: left;
     font-style: normal;
     font-size: 24px;
@@ -734,7 +778,7 @@ body {
     padding-left: 0.75rem;
 }
     .overview h2 {
-    color: #57BEB6;
+    color: #EAB197;
     text-align: left;
     font-style: normal;
     font-size: 18px;
@@ -854,7 +898,7 @@ body {
      position: relative;
      width: 100%;
 }
-    
+
 .homie {
      min-height: 200px;
      background-image: url("../images/ghome.png");
@@ -872,7 +916,7 @@ body {
      position: relative;
      width: 100%;
 }
-    
+
 .order {
      min-height: 200px;
      background-image: url("../images/order.png");
@@ -886,7 +930,7 @@ body {
      background-image: url("../images/steve.gif");
      background-repeat: no-repeat;
      background-size: cover;
-     position: relative; 
+     position: relative;
 }
 }
 
@@ -923,31 +967,31 @@ body {
 
 .workbtn {
   margin: auto;
-  background-color:#FFF;
+  background-color:#EAB197;
   padding: 18px 45px;
   -ms-border-radius: 30px;
   -o-border-radius: 30px;
   border-radius: 30px;
-  border: 1px solid #F15C56;
+  border: 1px solid #EAB197;
   -webkit-transition: .5s;
   transition: .5s;
   display: table;
   cursor: pointer;
   width:60%;
-  color:#F15C56;
+  color:#FFFFFF;
   text-decoration: none;
   text-align: center;
-  font-family: 'Raleway';
+  font-family: 'Avenir';
   margin-bottom: 1rem;
 }
 .workbtn:hover, .workbtn:hover {
-  background:#F15C56;
-  border-color: #F15C56;
-  color:#FFF;
+  background:#C7897D;
+  border-color: #C7897D;
+  color:#FFFFFF;
 }
 
-    
-  /* FOOTER */ 
+
+  /* FOOTER */
 footer {
     color: #FFFFFF;
     height: 75px;
