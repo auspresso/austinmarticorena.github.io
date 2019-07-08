@@ -59,10 +59,6 @@ body {
   color: #FFFFFF;
 }
 
-a:link {
-  color: #EAB197;
-}
-
 .navbar {
   position: absolute;
   padding-left: 2rem;
@@ -169,6 +165,7 @@ a:link {
   font-family: 'Avenir';
   margin-bottom: 10rem;
   font-weight: 400;
+  font-size: 16px;
 }
 
 .btn:hover, .btn:hover {
@@ -195,6 +192,7 @@ a:link {
   text-align: center;
   font-family: 'Avenir';
   font-weight: 400;
+  font-size: 16px;
 }
 
 .workbtn:hover, .workbtn:hover {
@@ -505,6 +503,11 @@ img {
   font-family: 'Avenir';
   margin-bottom: 14rem;
   font-weight: 400;
+  font-size: 16px;
+}
+
+.workbtn {
+  font-size: 16px;
 }
 
 .concontainer {
@@ -674,7 +677,7 @@ img {
   text-align: center;
   font-family: 'Avenir';
   margin-bottom: 10rem;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .workbtn {
@@ -907,7 +910,7 @@ img {
     text-align: center;
     font-family: 'Avenir';
     margin-bottom: 10rem;
-    font-size: 16px;
+    font-size: 14px;
   }
 
 
